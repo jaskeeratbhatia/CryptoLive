@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
@@ -20,23 +20,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Charts/Charts.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Charts-Swift.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Charts/Charts.framework/Headers/Charts-Swift.h"
         },
         {
           'type': 'file',
@@ -47,23 +47,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Charts/Charts.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Charts.build/module.modulemap"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Charts.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Headers",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "ESPullToRefresh-Swift.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Headers/ESPullToRefresh-Swift.h"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Headers/ESPullToRefresh-Swift.h"
         },
         {
           'type': 'file',
@@ -74,23 +74,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/ESPullToRefresh/ESPullToRefresh.framework/Modules",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ESPullToRefresh.build/module.modulemap"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ESPullToRefresh.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Headers",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/GearRefreshControl/GearRefreshControl.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "GearRefreshControl-Swift.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Headers/GearRefreshControl-Swift.h"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/GearRefreshControl/GearRefreshControl.framework/Headers/GearRefreshControl-Swift.h"
         },
         {
           'type': 'file',
@@ -101,23 +101,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Modules",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/GearRefreshControl/GearRefreshControl.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/GearRefreshControl.build/module.modulemap"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/GearRefreshControl.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Headers",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/LTMorphingLabel/LTMorphingLabel.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "LTMorphingLabel-Swift.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel-Swift.h"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel-Swift.h"
         },
         {
           'type': 'file',
@@ -133,18 +133,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Modules",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/LTMorphingLabel/LTMorphingLabel.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/LTMorphingLabel.build/module.modulemap"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/LTMorphingLabel.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Pods_CryptoLive.framework/Headers",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Pods_CryptoLive.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -154,18 +154,18 @@
         {
           'type': 'file',
           'name': "Pods_CryptoLive-Swift.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Pods_CryptoLive.framework/Headers/Pods_CryptoLive-Swift.h"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Pods_CryptoLive.framework/Headers/Pods_CryptoLive-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Pods_CryptoLive.framework/Modules",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Pods_CryptoLive.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-CryptoLive.build/module.modulemap"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Pods-CryptoLive.build/module.modulemap"
         }
       ]
     }
