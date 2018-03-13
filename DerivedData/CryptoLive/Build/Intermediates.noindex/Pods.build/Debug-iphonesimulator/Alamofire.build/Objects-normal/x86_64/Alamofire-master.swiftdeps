@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "30cba42fa3a831c888674441e9172ad7"
+build_time: [1520574720, 214246000]
+inputs:
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/AFError.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/Alamofire.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/MultipartFormData.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/Notifications.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/ParameterEncoding.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/Request.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/Response.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/ResponseSerialization.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/Result.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/SessionDelegate.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/SessionManager.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/TaskDelegate.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/Timeline.swift": [1520248358, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/Validation.swift": [1520248358, 0]

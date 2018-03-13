@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "66612adee705b303b5d6fbeac9c09180"
+build_time: [1520875432, 743488000]
+inputs:
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/CryptoLive/Network.swift": [1520408910, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/CryptoLive/HistoricDataModel.swift": [1520396455, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/CryptoLive/CrytoCurrencyModelCell.swift": [1520543368, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/CryptoLive/CurrencyModel.swift": [1520875432, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/CryptoLive/ViewController.swift": [1520875269, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/CryptoLive/CurrencyDetailViewController.swift": [1520875269, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/CryptoLive/AppDelegate.swift": [1520160482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/CryptoLive/CoinAPI.swift": [1519419434, 0]

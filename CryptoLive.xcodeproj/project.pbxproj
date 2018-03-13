@@ -13,6 +13,13 @@
 		5B04EC09204C0662009C5674 /* CryptoLive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B04EC07204C0662009C5674 /* CryptoLive.xcdatamodeld */; };
 		5B04EC0B204C0662009C5674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B04EC0A204C0662009C5674 /* Assets.xcassets */; };
 		5B04EC0E204C0662009C5674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B04EC0C204C0662009C5674 /* LaunchScreen.storyboard */; };
+		5B04EC16204C0706009C5674 /* CoinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04EC15204C0706009C5674 /* CoinAPI.swift */; };
+		5B04EC18204D5DFE009C5674 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04EC17204D5DFE009C5674 /* Network.swift */; };
+		5B04EC1B204D6AFF009C5674 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04EC1A204D6AFF009C5674 /* CurrencyModel.swift */; };
+		5B04EC1D204E5656009C5674 /* CurrencyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04EC1C204E5656009C5674 /* CurrencyDetailViewController.swift */; };
+		5B04EC1F204E6953009C5674 /* HistoricDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04EC1E204E6953009C5674 /* HistoricDataModel.swift */; };
+		5B04EC222050EE96009C5674 /* CrytoCurrencyModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04EC212050EE96009C5674 /* CrytoCurrencyModelCell.swift */; };
+		A159020EE3EFCDFB7F189516 /* Pods_CryptoLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87E2674E0BA3FA4C754BD02 /* Pods_CryptoLive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,15 @@
 		5B04EC0A204C0662009C5674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B04EC0D204C0662009C5674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B04EC0F204C0662009C5674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B04EC15204C0706009C5674 /* CoinAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinAPI.swift; sourceTree = "<group>"; };
+		5B04EC17204D5DFE009C5674 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		5B04EC1A204D6AFF009C5674 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		5B04EC1C204E5656009C5674 /* CurrencyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailViewController.swift; sourceTree = "<group>"; };
+		5B04EC1E204E6953009C5674 /* HistoricDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDataModel.swift; sourceTree = "<group>"; };
+		5B04EC212050EE96009C5674 /* CrytoCurrencyModelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrytoCurrencyModelCell.swift; sourceTree = "<group>"; };
+		8B35A40C1C24BD3276BD0F06 /* Pods-CryptoLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive.release.xcconfig"; sourceTree = "<group>"; };
+		B098A64C058947DAEECECF19 /* Pods-CryptoLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive.debug.xcconfig"; sourceTree = "<group>"; };
+		D87E2674E0BA3FA4C754BD02 /* Pods_CryptoLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A159020EE3EFCDFB7F189516 /* Pods_CryptoLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3094D130FC33FBE7011BB205 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B098A64C058947DAEECECF19 /* Pods-CryptoLive.debug.xcconfig */,
+				8B35A40C1C24BD3276BD0F06 /* Pods-CryptoLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B04EBF4204C0662009C5674 = {
 			isa = PBXGroup;
 			children = (
 				5B04EBFF204C0662009C5674 /* CryptoLive */,
 				5B04EBFE204C0662009C5674 /* Products */,
+				3094D130FC33FBE7011BB205 /* Pods */,
+				7A1D369E9B9EF81B4641CFE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +86,27 @@
 			children = (
 				5B04EC00204C0662009C5674 /* AppDelegate.swift */,
 				5B04EC02204C0662009C5674 /* ViewController.swift */,
+				5B04EC1E204E6953009C5674 /* HistoricDataModel.swift */,
+				5B04EC1C204E5656009C5674 /* CurrencyDetailViewController.swift */,
 				5B04EC04204C0662009C5674 /* Main.storyboard */,
 				5B04EC0A204C0662009C5674 /* Assets.xcassets */,
+				5B04EC15204C0706009C5674 /* CoinAPI.swift */,
 				5B04EC0C204C0662009C5674 /* LaunchScreen.storyboard */,
 				5B04EC0F204C0662009C5674 /* Info.plist */,
 				5B04EC07204C0662009C5674 /* CryptoLive.xcdatamodeld */,
+				5B04EC17204D5DFE009C5674 /* Network.swift */,
+				5B04EC1A204D6AFF009C5674 /* CurrencyModel.swift */,
+				5B04EC212050EE96009C5674 /* CrytoCurrencyModelCell.swift */,
 			);
 			path = CryptoLive;
+			sourceTree = "<group>";
+		};
+		7A1D369E9B9EF81B4641CFE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D87E2674E0BA3FA4C754BD02 /* Pods_CryptoLive.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B04EC12204C0662009C5674 /* Build configuration list for PBXNativeTarget "CryptoLive" */;
 			buildPhases = (
+				3FA2561913AA47EF486FBA97 /* [CP] Check Pods Manifest.lock */,
 				5B04EBF9204C0662009C5674 /* Sources */,
 				5B04EBFA204C0662009C5674 /* Frameworks */,
 				5B04EBFB204C0662009C5674 /* Resources */,
+				847F8D2A0AADA73E9A314643 /* [CP] Embed Pods Frameworks */,
+				922C4D0D79D1C9FB626D3313 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +179,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FA2561913AA47EF486FBA97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847F8D2A0AADA73E9A314643 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/GearRefreshControl/GearRefreshControl.framework",
+				"${BUILT_PRODUCTS_DIR}/LTMorphingLabel/LTMorphingLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESPullToRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GearRefreshControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTMorphingLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922C4D0D79D1C9FB626D3313 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B04EBF9204C0662009C5674 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B04EC18204D5DFE009C5674 /* Network.swift in Sources */,
 				5B04EC09204C0662009C5674 /* CryptoLive.xcdatamodeld in Sources */,
+				5B04EC1F204E6953009C5674 /* HistoricDataModel.swift in Sources */,
+				5B04EC222050EE96009C5674 /* CrytoCurrencyModelCell.swift in Sources */,
+				5B04EC1B204D6AFF009C5674 /* CurrencyModel.swift in Sources */,
 				5B04EC03204C0662009C5674 /* ViewController.swift in Sources */,
+				5B04EC1D204E5656009C5674 /* CurrencyDetailViewController.swift in Sources */,
 				5B04EC01204C0662009C5674 /* AppDelegate.swift in Sources */,
+				5B04EC16204C0706009C5674 /* CoinAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +389,15 @@
 		};
 		5B04EC13204C0662009C5674 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B098A64C058947DAEECECF19 /* Pods-CryptoLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EKM82MG69H;
 				INFOPLIST_FILE = CryptoLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jb.CryptoLive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jb.CryptoLive1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,13 +406,15 @@
 		};
 		5B04EC14204C0662009C5674 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B35A40C1C24BD3276BD0F06 /* Pods-CryptoLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EKM82MG69H;
 				INFOPLIST_FILE = CryptoLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jb.CryptoLive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jb.CryptoLive1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "fd0204245b045f6a1523a1ed7d9339a8"
+build_time: [1520576318, 312280000]
+inputs:
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/GearRefreshControl/Source/BigGear.swift": [1520575939, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/GearRefreshControl/Source/GearRefreshControl.swift": [1520576058, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/GearRefreshControl/Source/MainGear.swift": [1520575939, 0]

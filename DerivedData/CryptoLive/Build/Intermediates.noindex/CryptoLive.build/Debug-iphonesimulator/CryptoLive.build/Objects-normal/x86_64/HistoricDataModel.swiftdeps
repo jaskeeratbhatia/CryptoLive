@@ -1,0 +1,262 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HistoricDataModel"
+provides-nominal:
+- "10CryptoLive17HistoricDataModelC"
+provides-member:
+- ["10CryptoLive17HistoricDataModelC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "Date"
+- !private "DateFormatter"
+- "Dictionary"
+- "Double"
+- "HistoricDataModel"
+- !private "Locale"
+- "String"
+- !private "StringLiteralType"
+- !private "TimeZone"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "timeZone"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So13DateFormatterC", "dateFormat"]
+- !private ["So13DateFormatterC", "init"]
+- !private ["So13DateFormatterC", "locale"]
+- !private ["So13DateFormatterC", "string"]
+- !private ["So13DateFormatterC", "timeZone"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "dateFormat"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "locale"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "timeZone"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So9FormatterC", "dateFormat"]
+- !private ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "locale"]
+- !private ["So9FormatterC", "string"]
+- !private ["So9FormatterC", "timeZone"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "dateFormat"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "locale"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "timeZone"]
+- ["10CryptoLive17HistoricDataModelC", "AnyObject"]
+- !private ["10CryptoLive17HistoricDataModelC", "Date"]
+- !private ["10CryptoLive17HistoricDataModelC", "DateFormatter"]
+- ["10CryptoLive17HistoricDataModelC", "Dictionary"]
+- ["10CryptoLive17HistoricDataModelC", "Double"]
+- !private ["10CryptoLive17HistoricDataModelC", "Locale"]
+- ["10CryptoLive17HistoricDataModelC", "String"]
+- !private ["10CryptoLive17HistoricDataModelC", "TimeZone"]
+- !private ["10CryptoLive17HistoricDataModelC", "_close"]
+- !private ["10CryptoLive17HistoricDataModelC", "_high"]
+- !private ["10CryptoLive17HistoricDataModelC", "_low"]
+- !private ["10CryptoLive17HistoricDataModelC", "_open"]
+- !private ["10CryptoLive17HistoricDataModelC", "_timestamp"]
+- ["10CryptoLive17HistoricDataModelC", "close"]
+- ["10CryptoLive17HistoricDataModelC", "deinit"]
+- ["10CryptoLive17HistoricDataModelC", "high"]
+- ["10CryptoLive17HistoricDataModelC", "init"]
+- ["10CryptoLive17HistoricDataModelC", "low"]
+- ["10CryptoLive17HistoricDataModelC", "open"]
+- ["10CryptoLive17HistoricDataModelC", "timeOnlyFormatter"]
+- ["10CryptoLive17HistoricDataModelC", "timestamp"]
+- !private ["10Foundation6LocaleV", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "timeZone"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "timeZone"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "timeZone"]
+- !private ["So16NSObjectProtocolP", "dateFormat"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "locale"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "timeZone"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation8TimeZoneV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "So13DateFormatterC"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So9FormatterC"
+- !private "s8HashableP"
+- "10CryptoLive17HistoricDataModelC"
+- !private "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation8TimeZoneV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Modules/LTMorphingLabel.swiftmodule/x86_64.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Modules/GearRefreshControl.swiftmodule/x86_64.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Headers/GearRefreshControl-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Headers/GearRefreshControl-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Modules/module.modulemap"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Modules/module.modulemap"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
+interface-hash: "94885c050429fa586ec56443d071cfbd"

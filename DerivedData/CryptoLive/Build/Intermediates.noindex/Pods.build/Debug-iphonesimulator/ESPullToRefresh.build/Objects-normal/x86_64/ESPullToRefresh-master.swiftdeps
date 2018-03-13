@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "636dc70106e4f66a17534b181ea2668d"
+build_time: [1520574731, 530715000]
+inputs:
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/ESPullToRefresh/Sources/ES.swift": [1520572642, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/ESPullToRefresh/Sources/ESPullToRefresh+Manager.swift": [1520572642, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/ESPullToRefresh/Sources/ESPullToRefresh.swift": [1520572642, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/ESPullToRefresh/Sources/ESRefreshAnimator.swift": [1520572642, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/ESPullToRefresh/Sources/ESRefreshComponent.swift": [1520572642, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/ESPullToRefresh/Sources/Animator/ESRefreshFooterAnimator.swift": [1520572642, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/ESPullToRefresh/Sources/Animator/ESRefreshHeaderAnimator.swift": [1520572642, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/ESPullToRefresh/Sources/ESRefreshProtocol.swift": [1520572642, 0]

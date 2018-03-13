@@ -1,0 +1,365 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BigGear"
+provides-nominal:
+- "18GearRefreshControl03BigA0C"
+provides-member:
+- ["18GearRefreshControl03BigA0C", ""]
+provides-dynamic-lookup:
+- "draw"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "-"
+- "AssignmentPrecedence"
+- "BigGear"
+- !private "BooleanLiteralType"
+- !private "CGPoint"
+- "CGRect"
+- !private "UIBezierPath"
+- "UIView"
+depends-member:
+- !private ["18GearRefreshControl03BigA0C", "CGPoint"]
+- ["18GearRefreshControl03BigA0C", "CGRect"]
+- !private ["18GearRefreshControl03BigA0C", "UIBezierPath"]
+- ["18GearRefreshControl03BigA0C", "deinit"]
+- ["18GearRefreshControl03BigA0C", "draw"]
+- ["18GearRefreshControl03BigA0C", "init"]
+- !private ["18GearRefreshControl03BigA0C", "tintColor"]
+- !private ["So15CALayerDelegateP", "CGPoint"]
+- !private ["So15CALayerDelegateP", "CGRect"]
+- !private ["So15CALayerDelegateP", "UIBezierPath"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "tintColor"]
+- ["So15CALayerDelegateP", ""]
+- !private ["SC7CGPointV", "init"]
+- !private ["SC6CGRectV", "height"]
+- !private ["SC6CGRectV", "init"]
+- !private ["SC6CGRectV", "minX"]
+- !private ["SC6CGRectV", "minY"]
+- !private ["SC6CGRectV", "width"]
+- !private ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "UIBezierPath"]
+- !private ["s7CVarArgP", "addCurve"]
+- !private ["s7CVarArgP", "addLine"]
+- !private ["s7CVarArgP", "close"]
+- !private ["s7CVarArgP", "fill"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "miterLimit"]
+- !private ["s7CVarArgP", "move"]
+- !private ["s7CVarArgP", "setFill"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "usesEvenOddFillRule"]
+- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBezierPath"]
+- !private ["s28CustomDebugStringConvertibleP", "addCurve"]
+- !private ["s28CustomDebugStringConvertibleP", "addLine"]
+- !private ["s28CustomDebugStringConvertibleP", "close"]
+- !private ["s28CustomDebugStringConvertibleP", "fill"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "minX"]
+- !private ["s28CustomDebugStringConvertibleP", "minY"]
+- !private ["s28CustomDebugStringConvertibleP", "miterLimit"]
+- !private ["s28CustomDebugStringConvertibleP", "move"]
+- !private ["s28CustomDebugStringConvertibleP", "setFill"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "usesEvenOddFillRule"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "minX"]
+- !private ["s29CustomPlaygroundQuickLookableP", "minY"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "minX"]
+- !private ["s17CustomReflectableP", "minY"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "UIBezierPath"]
+- !private ["s23CustomStringConvertibleP", "addCurve"]
+- !private ["s23CustomStringConvertibleP", "addLine"]
+- !private ["s23CustomStringConvertibleP", "close"]
+- !private ["s23CustomStringConvertibleP", "fill"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "miterLimit"]
+- !private ["s23CustomStringConvertibleP", "move"]
+- !private ["s23CustomStringConvertibleP", "setFill"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "usesEvenOddFillRule"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "minX"]
+- !private ["s9DecodableP", "minY"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "minX"]
+- !private ["s9EncodableP", "minY"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "CGRect"]
+- !private ["s9EquatableP", "UIBezierPath"]
+- !private ["s9EquatableP", "addCurve"]
+- !private ["s9EquatableP", "addLine"]
+- !private ["s9EquatableP", "close"]
+- !private ["s9EquatableP", "fill"]
+- !private ["s9EquatableP", "height"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "minX"]
+- !private ["s9EquatableP", "minY"]
+- !private ["s9EquatableP", "miterLimit"]
+- !private ["s9EquatableP", "move"]
+- !private ["s9EquatableP", "setFill"]
+- !private ["s9EquatableP", "tintColor"]
+- !private ["s9EquatableP", "usesEvenOddFillRule"]
+- !private ["s9EquatableP", "width"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "CGRect"]
+- !private ["s8HashableP", "UIBezierPath"]
+- !private ["s8HashableP", "addCurve"]
+- !private ["s8HashableP", "addLine"]
+- !private ["s8HashableP", "close"]
+- !private ["s8HashableP", "fill"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "miterLimit"]
+- !private ["s8HashableP", "move"]
+- !private ["s8HashableP", "setFill"]
+- !private ["s8HashableP", "tintColor"]
+- !private ["s8HashableP", "usesEvenOddFillRule"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "CGPoint"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "UIBezierPath"]
+- !private ["So8NSCodingP", "addCurve"]
+- !private ["So8NSCodingP", "addLine"]
+- !private ["So8NSCodingP", "close"]
+- !private ["So8NSCodingP", "fill"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "miterLimit"]
+- !private ["So8NSCodingP", "move"]
+- !private ["So8NSCodingP", "setFill"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "usesEvenOddFillRule"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "addCurve"]
+- !private ["So9NSCopyingP", "addLine"]
+- !private ["So9NSCopyingP", "close"]
+- !private ["So9NSCopyingP", "fill"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "miterLimit"]
+- !private ["So9NSCopyingP", "move"]
+- !private ["So9NSCopyingP", "setFill"]
+- !private ["So9NSCopyingP", "usesEvenOddFillRule"]
+- !private ["So21NSItemProviderReadingP", "setFill"]
+- !private ["So21NSItemProviderWritingP", "setFill"]
+- !private ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "CGRect"]
+- !private ["So8NSObjectC", "UIBezierPath"]
+- !private ["So8NSObjectC", "addCurve"]
+- !private ["So8NSObjectC", "addLine"]
+- !private ["So8NSObjectC", "close"]
+- ["So8NSObjectC", "draw"]
+- !private ["So8NSObjectC", "fill"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "miterLimit"]
+- !private ["So8NSObjectC", "move"]
+- !private ["So8NSObjectC", "setFill"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "usesEvenOddFillRule"]
+- !private ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "CGRect"]
+- !private ["So16NSObjectProtocolP", "UIBezierPath"]
+- !private ["So16NSObjectProtocolP", "addCurve"]
+- !private ["So16NSObjectProtocolP", "addLine"]
+- !private ["So16NSObjectProtocolP", "close"]
+- !private ["So16NSObjectProtocolP", "fill"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "miterLimit"]
+- !private ["So16NSObjectProtocolP", "move"]
+- !private ["So16NSObjectProtocolP", "setFill"]
+- !private ["So16NSObjectProtocolP", "tintColor"]
+- !private ["So16NSObjectProtocolP", "usesEvenOddFillRule"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "addCurve"]
+- !private ["So14NSSecureCodingP", "addLine"]
+- !private ["So14NSSecureCodingP", "close"]
+- !private ["So14NSSecureCodingP", "fill"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "miterLimit"]
+- !private ["So14NSSecureCodingP", "move"]
+- !private ["So14NSSecureCodingP", "setFill"]
+- !private ["So14NSSecureCodingP", "usesEvenOddFillRule"]
+- !private ["So29UIAccessibilityIdentificationP", "CGPoint"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "UIBezierPath"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "CGPoint"]
+- !private ["So12UIAppearanceP", "CGRect"]
+- !private ["So12UIAppearanceP", "UIBezierPath"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "CGPoint"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- !private ["So21UIAppearanceContainerP", "UIBezierPath"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So12UIBezierPathC", "addCurve"]
+- !private ["So12UIBezierPathC", "addLine"]
+- !private ["So12UIBezierPathC", "close"]
+- !private ["So12UIBezierPathC", "fill"]
+- !private ["So12UIBezierPathC", "init"]
+- !private ["So12UIBezierPathC", "miterLimit"]
+- !private ["So12UIBezierPathC", "move"]
+- !private ["So12UIBezierPathC", "usesEvenOddFillRule"]
+- !private ["So7UIColorC", "setFill"]
+- !private ["So17UICoordinateSpaceP", "CGPoint"]
+- !private ["So17UICoordinateSpaceP", "CGRect"]
+- !private ["So17UICoordinateSpaceP", "UIBezierPath"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "CGPoint"]
+- !private ["So13UIDynamicItemP", "CGRect"]
+- !private ["So13UIDynamicItemP", "UIBezierPath"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "CGPoint"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- !private ["So18UIFocusEnvironmentP", "UIBezierPath"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "CGPoint"]
+- !private ["So11UIFocusItemP", "CGRect"]
+- !private ["So11UIFocusItemP", "UIBezierPath"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- ["So11UIFocusItemP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "CGPoint"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBezierPath"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "CGPoint"]
+- ["So11UIResponderC", "CGRect"]
+- !private ["So11UIResponderC", "UIBezierPath"]
+- ["So11UIResponderC", "draw"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "tintColor"]
+- !private ["So30UIResponderStandardEditActionsP", "CGPoint"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBezierPath"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "CGPoint"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- !private ["So18UITraitEnvironmentP", "UIBezierPath"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "CGPoint"]
+- ["So6UIViewC", "CGRect"]
+- !private ["So6UIViewC", "UIBezierPath"]
+- ["So6UIViewC", "draw"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "tintColor"]
+- ["So6UIViewC", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGPoint"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CGRect"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIBezierPath"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s26_ExpressibleByColorLiteralP", "setFill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBezierPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addCurve"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addLine"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "close"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "miterLimit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "move"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setFill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usesEvenOddFillRule"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "minX"]
+- !private ["s21_ObjectiveCBridgeableP", "minY"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+depends-nominal:
+- "18GearRefreshControl03BigA0C"
+- "So15CALayerDelegateP"
+- !private "SC7CGPointV"
+- !private "SC6CGRectV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So12UIBezierPathC"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Target Support Files/GearRefreshControl/GearRefreshControl-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/GearRefreshControl.build/unextended-module.modulemap"
+interface-hash: "e36a870da0082fcb05b1de84d0403cd2"

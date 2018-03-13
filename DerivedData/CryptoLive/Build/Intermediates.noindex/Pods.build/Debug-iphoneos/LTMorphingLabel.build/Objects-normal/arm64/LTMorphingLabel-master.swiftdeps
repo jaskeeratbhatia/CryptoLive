@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "437420fdd6782920505a352b7f6cc8a0"
+build_time: [1520534621, 878438000]
+inputs:
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTCharacterDiffResult.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTCharacterLimbo.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTEasing.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTEmitterView.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingEffect.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel+Anvil.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel+Burn.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel+Evaporate.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel+Fall.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel+Pixelate.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel+Sparkle.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel.swift": [1520534482, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTStringDiffResult.swift": [1520534482, 0]

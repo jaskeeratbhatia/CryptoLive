@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Alamofire</string>
+	<string>CoreServices</string>
+	<string>QuartzCore</string>
+	<string>Dispatch</string>
+	<string>CoreGraphics</string>
+	<string>Quartz</string>
+	<string>CoreData</string>
+	<string>GearRefreshControl</string>
+	<string>Charts</string>
+	<string>MobileCoreServices</string>
+	<string>UIKit</string>
+	<string>Cocoa</string>
+	<string>Foundation</string>
+	<string>AppKit</string>
+	<string>LTMorphingLabel</string>
+	<string>SystemConfiguration</string>
+</array>
+</plist>

@@ -1,0 +1,11 @@
+framework module GearRefreshControl {
+  umbrella header "GearRefreshControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module GearRefreshControl.Swift {
+    header "GearRefreshControl-Swift.h"
+    requires objc
+}
