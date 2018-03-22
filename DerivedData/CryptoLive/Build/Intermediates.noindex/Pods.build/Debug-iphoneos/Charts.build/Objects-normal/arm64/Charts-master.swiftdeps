@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "a9468f7884d37f12ac1425b13ab8bd6f"
-build_time: [1520358680, 517410000]
+build_time: [1521684078, 745204000]
 inputs:
   "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Charts/Source/Charts/Jobs/AnimatedMoveViewJob.swift": [1520324767, 0]
   "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Charts/Source/Charts/Jobs/AnimatedViewPortJob.swift": [1520324767, 0]

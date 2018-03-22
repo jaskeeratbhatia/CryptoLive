@@ -4,8 +4,8 @@
 <array>
 	<string>Alamofire</string>
 	<string>CoreServices</string>
-	<string>QuartzCore</string>
 	<string>Dispatch</string>
+	<string>QuartzCore</string>
 	<string>CoreGraphics</string>
 	<string>Quartz</string>
 	<string>CoreData</string>
@@ -13,10 +13,11 @@
 	<string>Charts</string>
 	<string>MobileCoreServices</string>
 	<string>UIKit</string>
-	<string>Cocoa</string>
 	<string>Foundation</string>
-	<string>AppKit</string>
+	<string>Cocoa</string>
+	<string>FaveButton</string>
 	<string>LTMorphingLabel</string>
 	<string>SystemConfiguration</string>
+	<string>AppKit</string>
 </array>
 </plist>

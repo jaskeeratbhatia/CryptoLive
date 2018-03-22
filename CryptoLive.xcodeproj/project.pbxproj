@@ -19,6 +19,9 @@
 		5B04EC1D204E5656009C5674 /* CurrencyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04EC1C204E5656009C5674 /* CurrencyDetailViewController.swift */; };
 		5B04EC1F204E6953009C5674 /* HistoricDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04EC1E204E6953009C5674 /* HistoricDataModel.swift */; };
 		5B04EC222050EE96009C5674 /* CrytoCurrencyModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B04EC212050EE96009C5674 /* CrytoCurrencyModelCell.swift */; };
+		5B1550042063447E00083D65 /* CAGradientLayer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1550032063447E00083D65 /* CAGradientLayer+Convenience.swift */; };
+		5B1550062063468400083D65 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1550052063468400083D65 /* AboutUs.swift */; };
+		5B1550082063655400083D65 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1550072063655400083D65 /* ProfileViewController.swift */; };
 		A159020EE3EFCDFB7F189516 /* Pods_CryptoLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87E2674E0BA3FA4C754BD02 /* Pods_CryptoLive.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		5B04EC1C204E5656009C5674 /* CurrencyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetailViewController.swift; sourceTree = "<group>"; };
 		5B04EC1E204E6953009C5674 /* HistoricDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricDataModel.swift; sourceTree = "<group>"; };
 		5B04EC212050EE96009C5674 /* CrytoCurrencyModelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrytoCurrencyModelCell.swift; sourceTree = "<group>"; };
+		5B1550032063447E00083D65 /* CAGradientLayer+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Convenience.swift"; sourceTree = "<group>"; };
+		5B1550052063468400083D65 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		5B1550072063655400083D65 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8B35A40C1C24BD3276BD0F06 /* Pods-CryptoLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive.release.xcconfig"; sourceTree = "<group>"; };
 		B098A64C058947DAEECECF19 /* Pods-CryptoLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive.debug.xcconfig"; sourceTree = "<group>"; };
 		D87E2674E0BA3FA4C754BD02 /* Pods_CryptoLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +103,9 @@
 				5B04EC17204D5DFE009C5674 /* Network.swift */,
 				5B04EC1A204D6AFF009C5674 /* CurrencyModel.swift */,
 				5B04EC212050EE96009C5674 /* CrytoCurrencyModelCell.swift */,
+				5B1550032063447E00083D65 /* CAGradientLayer+Convenience.swift */,
+				5B1550052063468400083D65 /* AboutUs.swift */,
+				5B1550072063655400083D65 /* ProfileViewController.swift */,
 			);
 			path = CryptoLive;
 			sourceTree = "<group>";
@@ -207,7 +216,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/FaveButton/FaveButton.framework",
 				"${BUILT_PRODUCTS_DIR}/GearRefreshControl/GearRefreshControl.framework",
 				"${BUILT_PRODUCTS_DIR}/LTMorphingLabel/LTMorphingLabel.framework",
 			);
@@ -215,7 +224,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESPullToRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaveButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GearRefreshControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTMorphingLabel.framework",
 			);
@@ -249,8 +258,11 @@
 				5B04EC18204D5DFE009C5674 /* Network.swift in Sources */,
 				5B04EC09204C0662009C5674 /* CryptoLive.xcdatamodeld in Sources */,
 				5B04EC1F204E6953009C5674 /* HistoricDataModel.swift in Sources */,
+				5B1550062063468400083D65 /* AboutUs.swift in Sources */,
 				5B04EC222050EE96009C5674 /* CrytoCurrencyModelCell.swift in Sources */,
 				5B04EC1B204D6AFF009C5674 /* CurrencyModel.swift in Sources */,
+				5B1550082063655400083D65 /* ProfileViewController.swift in Sources */,
+				5B1550042063447E00083D65 /* CAGradientLayer+Convenience.swift in Sources */,
 				5B04EC03204C0662009C5674 /* ViewController.swift in Sources */,
 				5B04EC1D204E5656009C5674 /* CurrencyDetailViewController.swift in Sources */,
 				5B04EC01204C0662009C5674 /* AppDelegate.swift in Sources */,

@@ -247,17 +247,28 @@ SWIFT_CLASS("_TtC10CryptoLive28CurrencyDetailViewController")
 
 
 
+@class UIView;
+@class NSLayoutConstraint;
 @class UISearchBar;
+@class UIVisualEffectView;
 @class UITableView;
 @class UIScrollView;
 
 SWIFT_CLASS("_TtC10CryptoLive14ViewController")
 @interface ViewController : UIViewController <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified sideMenuHeadingLabel;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified navBarView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuLeadingConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuWidth;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified sideMenuView;
 @property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
+@property (nonatomic, weak) IBOutlet UIVisualEffectView * _Null_unspecified blurView;
 @property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified NavBarHeading;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
 - (void)refresh;
+- (IBAction)onCancelPress:(id _Nonnull)sender;
+- (IBAction)onPressOptions:(id _Nonnull)sender;
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 - (void)didReceiveMemoryWarning;
 - (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;

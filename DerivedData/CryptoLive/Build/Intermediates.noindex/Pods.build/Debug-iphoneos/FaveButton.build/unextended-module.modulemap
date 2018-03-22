@@ -1,0 +1,10 @@
+framework module FaveButton {
+  umbrella header "FaveButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FaveButton.__Swift {
+    exclude header "FaveButton-Swift.h"
+}

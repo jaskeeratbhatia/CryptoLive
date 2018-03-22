@@ -1,0 +1,127 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Easing"
+- "ElasticEasing"
+- "Elastic"
+provides-nominal:
+- "10FaveButton7ElasticV"
+provides-member:
+- ["10FaveButton7ElasticV", ""]
+- ["10FaveButton7ElasticV", "ExtendedEaseIn"]
+- ["10FaveButton7ElasticV", "ExtendedEaseOut"]
+- ["10FaveButton7ElasticV", "ExtendedEaseInOut"]
+provides-dynamic-lookup:
+depends-top-level:
+- "*"
+- "+"
+- "-"
+- "-="
+- "/"
+- "/="
+- "<"
+- "=="
+- "AssignmentPrecedence"
+- "CGFloat"
+- "Easing"
+- "Elastic"
+- "ElasticEasing"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "M_PI"
+- "abs"
+- "asin"
+- "pow"
+- "sin"
+depends-member:
+- ["s19BinaryFloatingPointP", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["12CoreGraphics7CGFloatV", "init"]
+- ["s7CVarArgP", "init"]
+- ["s10ComparableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- ["10FaveButton7ElasticV", "CGFloat"]
+- ["10FaveButton7ElasticV", "EaseIn"]
+- ["10FaveButton7ElasticV", "EaseInOut"]
+- ["10FaveButton7ElasticV", "EaseOut"]
+- ["10FaveButton7ElasticV", "Easing"]
+- ["10FaveButton7ElasticV", "ElasticEasing"]
+- ["10FaveButton7ElasticV", "ExtendedEaseIn"]
+- ["10FaveButton7ElasticV", "ExtendedEaseInOut"]
+- ["10FaveButton7ElasticV", "ExtendedEaseOut"]
+- ["10FaveButton7ElasticV", "M_PI"]
+- ["10FaveButton7ElasticV", "abs"]
+- ["10FaveButton7ElasticV", "asin"]
+- ["10FaveButton7ElasticV", "init"]
+- ["10FaveButton7ElasticV", "pow"]
+- ["10FaveButton7ElasticV", "sin"]
+- ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "init"]
+- ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s13FloatingPointP", "init"]
+- ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "init"]
+- ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s7NumericP", "init"]
+- ["s13SignedNumericP", "init"]
+- ["s10StrideableP", "init"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s11_StrideableP", "init"]
+depends-nominal:
+- "s19BinaryFloatingPointP"
+- "Sb"
+- "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- "s10ComparableP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "10FaveButton7ElasticV"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s13FloatingPointP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s7NumericP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s21_ObjectiveCBridgeableP"
+- "s11_StrideableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Target Support Files/FaveButton/FaveButton-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FaveButton.build/unextended-module.modulemap"
+interface-hash: "3ab1246989e3ef073d5d0592203a9e34"

@@ -3,24 +3,24 @@ PODS:
   - Charts (3.0.5):
     - Charts/Core (= 3.0.5)
   - Charts/Core (3.0.5)
-  - ESPullToRefresh (2.7)
+  - FaveButton (2.0.3)
   - GearRefreshControl (1.0.1)
   - LTMorphingLabel (0.5.6)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
   - Charts
-  - ESPullToRefresh
+  - FaveButton (~> 2.0.3)
   - GearRefreshControl (~> 1.0.0)
   - LTMorphingLabel
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   Charts: 45cdc985b764c838b35ee47eb1365d15735f6d1a
-  ESPullToRefresh: 119e2710b82b75536aab2bbe4883ba119fca35c8
+  FaveButton: cfcbc5e73da159c4f916613da5687357b5bb4783
   GearRefreshControl: f1d4cf97b6440bbd47d6a8a32fe2aaddd6d1e3cb
   LTMorphingLabel: bdb51d4682e9822da89da6f567bd8aa456fd6650
 
-PODFILE CHECKSUM: 244d43a54d86baeb43b1156a8a83a7014a16a13f
+PODFILE CHECKSUM: 77021be762978911fb008aa89ae24c171bc95cfc
 
 COCOAPODS: 1.4.0

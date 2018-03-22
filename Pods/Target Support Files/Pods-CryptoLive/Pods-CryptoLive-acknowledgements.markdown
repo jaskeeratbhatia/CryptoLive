@@ -230,11 +230,11 @@ Apache License
 
 
 
-## ESPullToRefresh
+## FaveButton
 
 The MIT License (MIT)
 
-Copyright (c) 2016 lihao
+Copyright (c) 2016 Jansel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

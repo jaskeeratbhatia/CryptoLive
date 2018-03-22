@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		PT90oE1ssMas9AqsizsjJs2wt7w=
+		0jHEz58O8G4ywdZkkcF3wH7BN7k=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -22,39 +22,39 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/objects-11.0+.nib</key>
 		<data>
-		knAfr2JwuBwj9bDQvv3tbRoOWxA=
+		2YNH757LKt+h4gjU/kVN8toEpxw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib</key>
 		<data>
-		j1vWExRrdtLhIznxe6r0UcnR+pc=
+		P3nEzXMMVOgcEMcP9xV2QEg6pOM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		dJvvpW/7LlTvRXo7RFaW/H5z7AI=
+		EUncwF6nlH7kw8Ltf8Ddcauh9Mk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/NSb-rJ-1TP-view-1yj-Yp-Hvh.nib/objects-11.0+.nib</key>
 		<data>
-		iwdBu1NNuLVyjHAed41Vg+CKnNo=
+		fhi/j05MFJL+F4ahaqwIzLHb9uQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/NSb-rJ-1TP-view-1yj-Yp-Hvh.nib/runtime.nib</key>
 		<data>
-		7cRTGmoXehgpik91ryzs8Yc22rw=
+		LQXf3PHDEGc6P2HHWhuaZ3+TG0c=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-KCY-Q1-ln1.nib/objects-11.0+.nib</key>
 		<data>
-		diQfsABaxWoUWMjr4bdnfVPZ6gU=
+		ne1Rq7u5PmZKCnRQldl33PfjTdM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-KCY-Q1-ln1.nib/runtime.nib</key>
 		<data>
-		8/8JtM6OxwzRl+GfBQ8zVQjQAQ0=
+		nQC2WgPs1qt9VExslUVz8RLLXlI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/currencyDetail.nib/objects-11.0+.nib</key>
 		<data>
-		t3eABUz+bfckxoS2CvLw7RCY0Do=
+		jcwiSz2TQYpkdAvlStNwAB3cgSY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/currencyDetail.nib/runtime.nib</key>
 		<data>
-		lwwLS81CAnVsAPqjAfSNHwdkuOs=
+		4jbeuGszGrH/ZYgzUi/v7/cFnWg=
 		</data>
 		<key>CryptoLive.momd/CryptoLive.mom</key>
 		<data>
@@ -92,45 +92,17 @@
 		<data>
 		BCIgNHDHIubmxXs7KeGR86pMXYs=
 		</data>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh</key>
+		<key>Frameworks/FaveButton.framework/FaveButton</key>
 		<data>
-		+VyOyBbwDBkk3LNZQZv7p5dXQDg=
+		UxkepR6C6mOLzbNCRVvfp/2OQyI=
 		</data>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/Info.plist</key>
+		<key>Frameworks/FaveButton.framework/Info.plist</key>
 		<data>
-		34DcWo6AuMYLtL5TFlvLTCQJe60=
+		mnprSjOeF4tbk5g9fZ5u/3NokiA=
 		</data>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/_CodeSignature/CodeDirectory</key>
+		<key>Frameworks/FaveButton.framework/_CodeSignature/CodeResources</key>
 		<data>
-		l+sU0SPJDcEpAlOTS2XrEowN/Fc=
-		</data>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		uq8F9kXteehl3Y4kTyekShXxrc0=
-		</data>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/_CodeSignature/CodeResources</key>
-		<data>
-		B/AJlKfZRHNE0ve+tZ0BFuajBzE=
-		</data>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/icon_pull_to_refresh_arrow@2x.png</key>
-		<data>
-		fvdnI/JYuH+PO9oRVhyH0Ipsp1I=
-		</data>
-		<key>Frameworks/ESPullToRefresh.framework/Info.plist</key>
-		<data>
-		cLsZAQsYuTJdclq0yXbgU95Oq/I=
-		</data>
-		<key>Frameworks/ESPullToRefresh.framework/_CodeSignature/CodeResources</key>
-		<data>
-		iDDsufiFqpNMk1mFCw90RIKk+PA=
+		y/h7OHzUXCPaEKQSkvEGiJnkVm4=
 		</data>
 		<key>Frameworks/GearRefreshControl.framework/GearRefreshControl</key>
 		<data>
@@ -247,11 +219,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PT90oE1ssMas9AqsizsjJs2wt7w=
+			0jHEz58O8G4ywdZkkcF3wH7BN7k=
 			</data>
 			<key>hash2</key>
 			<data>
-			CC/Ci1pnfkBBIGz4h6bnOJKzdiY2b2tZuk6AhNk9X48=
+			VuAR1aNi4e+HlkNotnrhtq+f68owNnjOUMcc23n9WrU=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -291,99 +263,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			knAfr2JwuBwj9bDQvv3tbRoOWxA=
+			2YNH757LKt+h4gjU/kVN8toEpxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			7TnWsnQmqlMaZHcwxl47VPqE0h2aE7mUn2D51jA3k80=
+			L3EBaDK8Omt0RWJgYf9G+BhGJwVu+hFHWS5sr+4OBT8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j1vWExRrdtLhIznxe6r0UcnR+pc=
+			P3nEzXMMVOgcEMcP9xV2QEg6pOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MZSoGP8DK+blW/BPW3PW0lBysyfHsvNZvIKGStNQBWA=
+			yc4rlOHPvSR4cYSRJUZ+3k7z8ttQmKSVSlnwFR/eElU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dJvvpW/7LlTvRXo7RFaW/H5z7AI=
+			EUncwF6nlH7kw8Ltf8Ddcauh9Mk=
 			</data>
 			<key>hash2</key>
 			<data>
-			q30V8zx7pdFIbIkeOXxVHTa3HGYP7ML7Ud7Vkacr47c=
+			HDHUJmnB09Iffzjyn/fxx21i3N4rJB6InUGzYJTBizs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/NSb-rJ-1TP-view-1yj-Yp-Hvh.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iwdBu1NNuLVyjHAed41Vg+CKnNo=
+			fhi/j05MFJL+F4ahaqwIzLHb9uQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			WLqIB1a2onIh3TsSXB4QYjiPM01xu223TzJNwMRExtg=
+			03EOaCgVfD0X/Kqr30+JqlIEZWpdE6rwdXoPc/Pc1nY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/NSb-rJ-1TP-view-1yj-Yp-Hvh.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7cRTGmoXehgpik91ryzs8Yc22rw=
+			LQXf3PHDEGc6P2HHWhuaZ3+TG0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			jUsrkUjGHUYZCY8YklPs7Adno026Gv9ZVvIaY/DyhgY=
+			HpLSCaoYsU+BUBSso1gfekmCBOITneZW7Rq11F2JWt0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-KCY-Q1-ln1.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			diQfsABaxWoUWMjr4bdnfVPZ6gU=
+			ne1Rq7u5PmZKCnRQldl33PfjTdM=
 			</data>
 			<key>hash2</key>
 			<data>
-			dsyp7qawUqqFjGM6JIZUnONdo7aDQ9i+QkhMtO1QGAg=
+			+ilzk0A8SRhOLPPLtWTGFRLJI5gs3TyZSqBXaqH6e10=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-KCY-Q1-ln1.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8/8JtM6OxwzRl+GfBQ8zVQjQAQ0=
+			nQC2WgPs1qt9VExslUVz8RLLXlI=
 			</data>
 			<key>hash2</key>
 			<data>
-			FXkKcfIJR5MC3b9G9V/JB49944K+wYDbhPlggCT2xIk=
+			1ajk/JsrdPXt5JudJ1BO1c6uB9eA93QbBnhogherdEw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/currencyDetail.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t3eABUz+bfckxoS2CvLw7RCY0Do=
+			jcwiSz2TQYpkdAvlStNwAB3cgSY=
 			</data>
 			<key>hash2</key>
 			<data>
-			6VuIUCTLQLPsqTa0iG24J9I7CwUu7q7kdETmSqWMzGU=
+			UHaq5Hp9j6pzFBviLnsmFhaJoeW4kUBVxWpBUtELiTA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/currencyDetail.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lwwLS81CAnVsAPqjAfSNHwdkuOs=
+			4jbeuGszGrH/ZYgzUi/v7/cFnWg=
 			</data>
 			<key>hash2</key>
 			<data>
-			z4LU92CkmhAmFH4pAm0hhUASLeLGKzvQUangrYW1XGQ=
+			Ri1RYm3uiJ1ltk0BJM/S+/yBsAygVHWIQStV8gT7Y1U=
 			</data>
 		</dict>
 		<key>CryptoLive.momd/CryptoLive.mom</key>
@@ -485,114 +457,37 @@
 			t4IMrwVVMoZbsWEoyhpnmUi8sGsEXzJ4sh0aaPdQorw=
 			</data>
 		</dict>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh</key>
+		<key>Frameworks/FaveButton.framework/FaveButton</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+VyOyBbwDBkk3LNZQZv7p5dXQDg=
+			UxkepR6C6mOLzbNCRVvfp/2OQyI=
 			</data>
 			<key>hash2</key>
 			<data>
-			/0bUorWx9sOdnXkWMByRjCOTP7WbdeKTPdlUjTt3ZqM=
+			D0gx/Y5EK7cKtFgc4+JCQzI2dd8bEmBE0oB1JVk6dMw=
 			</data>
 		</dict>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/Info.plist</key>
+		<key>Frameworks/FaveButton.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			34DcWo6AuMYLtL5TFlvLTCQJe60=
+			mnprSjOeF4tbk5g9fZ5u/3NokiA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tvK0eS478kRRMhn2D6bhAKwKf/nu02LAoXSy4HdZXgA=
+			QKTBEu7YjB5rIulEpqSUV1cHRemIuISGjJL/agRVoeo=
 			</data>
 		</dict>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/_CodeSignature/CodeDirectory</key>
+		<key>Frameworks/FaveButton.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l+sU0SPJDcEpAlOTS2XrEowN/Fc=
+			y/h7OHzUXCPaEKQSkvEGiJnkVm4=
 			</data>
 			<key>hash2</key>
 			<data>
-			5luYF12/mgDLMgNLTd7PPNaJrN1t9EbMpEM8IYEDlT4=
-			</data>
-		</dict>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			uq8F9kXteehl3Y4kTyekShXxrc0=
-			</data>
-			<key>hash2</key>
-			<data>
-			SFEr0c4+Q2GCiPmu2qLbqKHn2ZGOlAstB9u2OmUcsuU=
-			</data>
-		</dict>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			B/AJlKfZRHNE0ve+tZ0BFuajBzE=
-			</data>
-			<key>hash2</key>
-			<data>
-			pierGrhJQ2YEiNmyvfvO+0//wiS/BCpcME0AIZttmx0=
-			</data>
-		</dict>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
-		<key>Frameworks/ESPullToRefresh.framework/ESPullToRefresh.bundle/icon_pull_to_refresh_arrow@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fvdnI/JYuH+PO9oRVhyH0Ipsp1I=
-			</data>
-			<key>hash2</key>
-			<data>
-			e2PweXlVgI8p9g2BlGzAMOdJdZ4YxtUA33IrywKLrJs=
-			</data>
-		</dict>
-		<key>Frameworks/ESPullToRefresh.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cLsZAQsYuTJdclq0yXbgU95Oq/I=
-			</data>
-			<key>hash2</key>
-			<data>
-			JJ/R3JDR6pWJbNaKTblihH4JrcWDQzt8GapNDSM6Ig8=
-			</data>
-		</dict>
-		<key>Frameworks/ESPullToRefresh.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iDDsufiFqpNMk1mFCw90RIKk+PA=
-			</data>
-			<key>hash2</key>
-			<data>
-			uq1KVboY+x/i9clcUbFhPgWC1kLcahIN6KSBN5QSf9o=
+			Z192abX7M4B27Eed4gL19RR04Ad5B0jFUkHtVoYawVE=
 			</data>
 		</dict>
 		<key>Frameworks/GearRefreshControl.framework/GearRefreshControl</key>

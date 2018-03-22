@@ -173,6 +173,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import QuartzCore;
 @import Charts;
 @import Foundation;
 @import CoreGraphics;
@@ -187,6 +188,27 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wnullability"
 
 SWIFT_MODULE_NAMESPACE_PUSH("CryptoLive")
+@class LTMorphingLabel;
+@class UIView;
+@class NSLayoutConstraint;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC10CryptoLive7AboutUs")
+@interface AboutUs : UIViewController
+@property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified aboutHeadingLabel;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified aboutView;
+@property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified AboutText;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified seperatorViewLeadingConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified aboutViewHeightConstraint;
+- (void)viewDidLoad;
+- (void)loadAnimatedUI;
+- (void)didReceiveMemoryWarning;
+- (IBAction)onPressCancel:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIApplication;
 
@@ -202,9 +224,9 @@ SWIFT_CLASS("_TtC10CryptoLive11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class LTMorphingLabel;
+
+
 @class UIImageView;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC10CryptoLive22CrytoCurrencyModelCell")
 @interface CrytoCurrencyModelCell : UITableViewCell
@@ -223,7 +245,6 @@ SWIFT_CLASS("_TtC10CryptoLive22CrytoCurrencyModelCell")
 @class UILabel;
 @class CandleStickChartView;
 @class UIButton;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC10CryptoLive28CurrencyDetailViewController")
 @interface CurrencyDetailViewController : UIViewController <ChartViewDelegate>
@@ -247,17 +268,38 @@ SWIFT_CLASS("_TtC10CryptoLive28CurrencyDetailViewController")
 
 
 
+
+SWIFT_CLASS("_TtC10CryptoLive21ProfileViewController")
+@interface ProfileViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UISearchBar;
+@class UIVisualEffectView;
 @class UITableView;
 @class UIScrollView;
 
 SWIFT_CLASS("_TtC10CryptoLive14ViewController")
 @interface ViewController : UIViewController <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuStackViewLeadingConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuStackViewTrailingConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuHeadingSeperatorViewTrailingConstraint;
+@property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified sideMenuHeadingLabel;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified navBarView;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuLeadingConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuWidth;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified sideMenuView;
 @property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
+@property (nonatomic, weak) IBOutlet UIVisualEffectView * _Null_unspecified blurView;
 @property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified NavBarHeading;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
 - (void)refresh;
+- (IBAction)onCancelPress:(id _Nonnull)sender;
+- (IBAction)onPressOptions:(id _Nonnull)sender;
 - (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 - (void)didReceiveMemoryWarning;
 - (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;

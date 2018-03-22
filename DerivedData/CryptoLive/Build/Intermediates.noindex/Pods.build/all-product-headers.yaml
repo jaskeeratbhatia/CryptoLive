@@ -58,28 +58,28 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Headers",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/FaveButton/FaveButton.framework/Headers",
       'contents': [
         {
           'type': 'file',
-          'name': "ESPullToRefresh-Swift.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Headers/ESPullToRefresh-Swift.h"
+          'name': "FaveButton-Swift.h",
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/FaveButton/FaveButton.framework/Headers/FaveButton-Swift.h"
         },
         {
           'type': 'file',
-          'name': "ESPullToRefresh-umbrella.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Target Support Files/ESPullToRefresh/ESPullToRefresh-umbrella.h"
+          'name': "FaveButton-umbrella.h",
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Target Support Files/FaveButton/FaveButton-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/ESPullToRefresh/ESPullToRefresh.framework/Modules",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/FaveButton/FaveButton.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ESPullToRefresh.build/module.modulemap"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FaveButton.build/module.modulemap"
         }
       ]
     },

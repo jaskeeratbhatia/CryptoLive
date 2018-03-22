@@ -1,0 +1,164 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So15CAGradientLayerC", ""]
+- ["So15CAGradientLayerC", "turquoiseColor"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "/"
+- !private "Array"
+- "AssignmentPrecedence"
+- "CAGradientLayer"
+- "CastingPrecedence"
+- !private "NSNumber"
+- !private "UIColor"
+depends-member:
+- ["So15CAGradientLayerC", "CAGradientLayer"]
+- !private ["So15CAGradientLayerC", "NSNumber"]
+- !private ["So15CAGradientLayerC", "UIColor"]
+- !private ["So15CAGradientLayerC", "colors"]
+- !private ["So15CAGradientLayerC", "init"]
+- !private ["So15CAGradientLayerC", "locations"]
+- ["So15CAGradientLayerC", "turquoiseColor"]
+- ["So7CALayerC", "CAGradientLayer"]
+- !private ["So7CALayerC", "NSNumber"]
+- !private ["So7CALayerC", "UIColor"]
+- !private ["So7CALayerC", "colors"]
+- !private ["So7CALayerC", "init"]
+- !private ["So7CALayerC", "locations"]
+- ["So7CALayerC", "turquoiseColor"]
+- !private ["So13CAMediaTimingP", "CAGradientLayer"]
+- !private ["So13CAMediaTimingP", "UIColor"]
+- !private ["So13CAMediaTimingP", "colors"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "locations"]
+- !private ["s7CVarArgP", "CAGradientLayer"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "cgColor"]
+- !private ["s7CVarArgP", "colors"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "locations"]
+- !private ["s28CustomDebugStringConvertibleP", "CAGradientLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "colors"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "locations"]
+- !private ["s23CustomStringConvertibleP", "CAGradientLayer"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- !private ["s23CustomStringConvertibleP", "colors"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "locations"]
+- !private ["s9EquatableP", "CAGradientLayer"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "cgColor"]
+- !private ["s9EquatableP", "colors"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "locations"]
+- !private ["s8HashableP", "CAGradientLayer"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "cgColor"]
+- !private ["s8HashableP", "colors"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "locations"]
+- !private ["So8NSCodingP", "CAGradientLayer"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "cgColor"]
+- !private ["So8NSCodingP", "colors"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "locations"]
+- !private ["So9NSCopyingP", "cgColor"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "CAGradientLayer"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "cgColor"]
+- !private ["So8NSObjectC", "colors"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "locations"]
+- ["So8NSObjectC", "turquoiseColor"]
+- !private ["So16NSObjectProtocolP", "CAGradientLayer"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "cgColor"]
+- !private ["So16NSObjectProtocolP", "colors"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "locations"]
+- !private ["So14NSSecureCodingP", "CAGradientLayer"]
+- !private ["So14NSSecureCodingP", "UIColor"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- !private ["So14NSSecureCodingP", "colors"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "locations"]
+- !private ["So7UIColorC", "cgColor"]
+- !private ["So7UIColorC", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CAGradientLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locations"]
+depends-nominal:
+- "So15CAGradientLayerC"
+- "So7CALayerC"
+- !private "So13CAMediaTimingP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So7UIColorC"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/LTMorphingLabel/LTMorphingLabel.framework/Modules/LTMorphingLabel.swiftmodule/arm64.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/GearRefreshControl/GearRefreshControl.framework/Modules/GearRefreshControl.swiftmodule/arm64.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/FaveButton/FaveButton.framework/Modules/FaveButton.swiftmodule/arm64.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Charts/Charts.framework/Modules/Charts.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/GearRefreshControl/GearRefreshControl.framework/Headers/GearRefreshControl-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/FaveButton/FaveButton.framework/Headers/FaveButton-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/GearRefreshControl/GearRefreshControl.framework/Headers/GearRefreshControl-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/FaveButton/FaveButton.framework/Headers/FaveButton-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/LTMorphingLabel/LTMorphingLabel.framework/Modules/module.modulemap"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/GearRefreshControl/GearRefreshControl.framework/Modules/module.modulemap"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/FaveButton/FaveButton.framework/Modules/module.modulemap"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphoneos/Charts/Charts.framework/Modules/module.modulemap"
+interface-hash: "e3585904dd9346c0734684df0d61a247"

@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "b7c71b12897fad9415c2803e6d4d4d66"
+build_time: [1521684075, 428543000]
+inputs:
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/FaveButton/Source/Helpers/Constraints+.swift": [1521210538, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/FaveButton/Source/Helpers/Easing.swift": [1521210538, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/FaveButton/Source/FaveButton.swift": [1521567494, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/FaveButton/Source/FaveIcon.swift": [1521210538, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/FaveButton/Source/Helpers/Geometry.swift": [1521210538, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/FaveButton/Source/Helpers/Init.swift": [1521210538, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/FaveButton/Source/Ring.swift": [1521210538, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/FaveButton/Source/Spark.swift": [1521210538, 0]

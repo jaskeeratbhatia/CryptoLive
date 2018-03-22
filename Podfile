@@ -13,11 +13,11 @@ pod 'Charts'
 
 pod 'LTMorphingLabel'
 
-pod "ESPullToRefresh"
-
 pod 'GearRefreshControl', '~> 1.0.0'
 
-pod 'DAOSearchBar'
+pod 'FaveButton', '~> 2.0.3'
+
+
 
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!

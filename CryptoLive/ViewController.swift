@@ -10,9 +10,19 @@ import UIKit
 import Alamofire
 import LTMorphingLabel
 import GearRefreshControl
+import FaveButton
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate{
+    @IBOutlet weak var sideMenuStackViewLeadingConstraint: NSLayoutConstraint!
+    @IBOutlet weak var sideMenuStackViewTrailingConstraint: NSLayoutConstraint!
+    @IBOutlet weak var sideMenuHeadingSeperatorViewTrailingConstraint: NSLayoutConstraint!
+    @IBOutlet weak var sideMenuHeadingLabel: LTMorphingLabel!
+    @IBOutlet weak var navBarView: UIView!
+    @IBOutlet weak var sideMenuLeadingConstraint: NSLayoutConstraint!
+    @IBOutlet weak var sideMenuWidth: NSLayoutConstraint!
+    @IBOutlet weak var sideMenuView: UIView!
     @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var blurView: UIVisualEffectView!
     
     @IBOutlet weak var NavBarHeading: LTMorphingLabel!
     @IBOutlet weak var tableView: UITableView!
@@ -24,7 +34,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         currencies = []
+       self.view.bringSubview(toFront: self.sideMenuView)
+        //tableView.backgroundColor = UIColor.clear
+        sideMenuWidth.constant = self.view.frame.width/1.25
+        blurView.layer.cornerRadius = 20
+        sideMenuView.layer.shadowRadius = 8
+        sideMenuView.layer.shadowOffset = CGSize(width: 10, height: 0)
+        sideMenuView.layer.shadowColor = UIColor.black.cgColor
+        sideMenuView.layer.shadowOpacity = 0.6
+        sideMenuLeadingConstraint.constant = -self.view.frame.width/1.25
+        sideMenuHeadingSeperatorViewTrailingConstraint.constant = 400
+        sideMenuStackViewTrailingConstraint.constant = 400
+        sideMenuStackViewLeadingConstraint.constant = -600
         
+    
         NavBarHeading.text = "Crypto-Live"
         navigationController?.navigationBar.isHidden = true
         //To make the status bar text color white
@@ -66,6 +89,53 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     }
     
+    @IBAction func onCancelPress(_ sender: Any) {
+        UIView.animate(withDuration: 0.5) {
+            self.sideMenuLeadingConstraint.constant = -self.view.frame.width/1.25
+            self.sideMenuHeadingSeperatorViewTrailingConstraint.constant = 400
+            self.sideMenuStackViewTrailingConstraint.constant = 400
+            self.sideMenuStackViewLeadingConstraint.constant = -600
+//            self.tableView.alpha = 1
+//            self.searchBar.alpha = 1
+//            self.navBarView.alpha = 1
+            self.view.layoutIfNeeded()
+        }
+        self.sideMenuHeadingLabel.text = ""
+    }
+    
+    @IBAction func onPressOptions(_ sender: Any) {
+        UIView.animate(withDuration: 0.3, animations: {
+            self.sideMenuLeadingConstraint.constant = -20
+            
+            self.view.layoutIfNeeded()
+        }) { (finished) in
+            if (finished) {
+                
+                UIView.animate(withDuration: 0.5, animations: {
+                    self.sideMenuHeadingLabel.text = "Cryto-Live"
+                    self.sideMenuHeadingSeperatorViewTrailingConstraint.constant = 10
+                    self.sideMenuStackViewLeadingConstraint.constant = 30
+                    self.sideMenuStackViewTrailingConstraint.constant = 10
+                    self.view.layoutIfNeeded()
+                })
+                
+            }
+        }
+//        UIView.animate(withDuration: 0.5) {
+//            self.sideMenuLeadingConstraint.constant = -20
+//            self.sideMenuHeadingLabel.text = "Cryto-Live"
+//
+////            self.tableView.alpha = 0.1
+////            self.searchBar.alpha = 0.1
+////            self.navBarView.alpha = 0.1
+//            self.view.layoutIfNeeded()
+//
+//        }
+        
+        
+    }
+    
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         gearRefreshControl.scrollViewDidScroll(self.tableView)
     }
@@ -93,8 +163,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         tableView.reloadData()
     }
-    
-    
     
     
     override func viewDidAppear(_ animated: Bool) {
@@ -195,12 +263,12 @@ extension ViewController  {
         UIView.animate(withDuration: 1, animations: {
             cell.layer.transform = CATransform3DMakeScale(1,1,0.2)
         })
-        //        UIView.animate(withDuration: 0.4, animations: {
-        //            cell.layer.transform = CATransform3DMakeScale(1.5,1.5,1.5)
-        //        })
-        //        UIView.animate(withDuration: 0.2, animations: {
-        //            cell.layer.transform = CATransform3DMakeScale(1,1,1)
-        //        })
+//                UIView.animate(withDuration: 0.4, animations: {
+//                    cell.layer.transform = CATransform3DMakeScale(1.5,1.5,1)
+//                })
+//                UIView.animate(withDuration: 0.2, animations: {
+//                    cell.layer.transform = CATransform3DMakeScale(1,1,1)
+//                })
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
