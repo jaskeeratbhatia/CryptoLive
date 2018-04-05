@@ -9,17 +9,22 @@ provides-dynamic-lookup:
 - "currencyIcon"
 - "currencyName"
 - "currencySymbol"
+- "favouritesButton"
 - "onPressFavourites"
 - "onPressShare"
-- "setSelected"
+- "shareButton"
 - "tradePrice"
 depends-top-level:
 - "AssignmentPrecedence"
 - "Bool"
+- !private "BooleanLiteralType"
 - "CrytoCurrencyModelCell"
+- "CrytoCurrencyModelCellProtocol"
+- "FaveButton"
 - "LTMorphingLabel"
 - "String"
 - !private "StringLiteralType"
+- "UIButton"
 - !private "UIImage"
 - "UIImageView"
 - "UITableViewCell"
@@ -27,24 +32,33 @@ depends-top-level:
 depends-member:
 - !private ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "lowercased"]
+- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "UIImage"]
+- !private ["So15CALayerDelegateP", "cellDelegate"]
 - !private ["So15CALayerDelegateP", "currencyIcon"]
 - !private ["So15CALayerDelegateP", "currencyName"]
 - !private ["So15CALayerDelegateP", "currencySymbol"]
+- !private ["So15CALayerDelegateP", "favouritesButton"]
 - !private ["So15CALayerDelegateP", "image"]
 - !private ["So15CALayerDelegateP", "init"]
-- !private ["So15CALayerDelegateP", "setSelected"]
+- !private ["So15CALayerDelegateP", "isSelected"]
+- !private ["So15CALayerDelegateP", "shareButton"]
+- !private ["So15CALayerDelegateP", "tag"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["So15CALayerDelegateP", "tradePrice"]
 - ["So15CALayerDelegateP", ""]
 - !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "cellDelegate"]
 - !private ["s7CVarArgP", "currencyIcon"]
 - !private ["s7CVarArgP", "currencyName"]
 - !private ["s7CVarArgP", "currencySymbol"]
+- !private ["s7CVarArgP", "favouritesButton"]
 - !private ["s7CVarArgP", "image"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSelected"]
 - !private ["s7CVarArgP", "lowercased"]
-- !private ["s7CVarArgP", "setSelected"]
+- !private ["s7CVarArgP", "shareButton"]
+- !private ["s7CVarArgP", "tag"]
 - !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "tradePrice"]
 - ["s7CVarArgP", ""]
@@ -53,91 +67,128 @@ depends-member:
 - !private ["s10ComparableP", "init"]
 - !private ["s10ComparableP", "lowercased"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "Bool"]
+- ["10CryptoLive22CrytoCurrencyModelCellC", "CrytoCurrencyModelCellProtocol"]
+- ["10CryptoLive22CrytoCurrencyModelCellC", "FaveButton"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "LTMorphingLabel"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "String"]
+- ["10CryptoLive22CrytoCurrencyModelCellC", "UIButton"]
 - !private ["10CryptoLive22CrytoCurrencyModelCellC", "UIImage"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "UIImageView"]
+- ["10CryptoLive22CrytoCurrencyModelCellC", "cellDelegate"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "configureCell"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "currencyIcon"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "currencyName"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "currencySymbol"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "deinit"]
+- ["10CryptoLive22CrytoCurrencyModelCellC", "favouritesButton"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "init"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "onPressFavourites"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "onPressShare"]
-- ["10CryptoLive22CrytoCurrencyModelCellC", "setSelected"]
+- ["10CryptoLive22CrytoCurrencyModelCellC", "shareButton"]
 - ["10CryptoLive22CrytoCurrencyModelCellC", "tradePrice"]
+- !private ["10CryptoLive30CrytoCurrencyModelCellProtocolP", "currencyTableCellDidTapHeart"]
+- !private ["10CryptoLive30CrytoCurrencyModelCellProtocolP", "currencyTableCellDidTapShare"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "cellDelegate"]
 - !private ["s28CustomDebugStringConvertibleP", "currencyIcon"]
 - !private ["s28CustomDebugStringConvertibleP", "currencyName"]
 - !private ["s28CustomDebugStringConvertibleP", "currencySymbol"]
+- !private ["s28CustomDebugStringConvertibleP", "favouritesButton"]
 - !private ["s28CustomDebugStringConvertibleP", "image"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSelected"]
 - !private ["s28CustomDebugStringConvertibleP", "lowercased"]
-- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "shareButton"]
+- !private ["s28CustomDebugStringConvertibleP", "tag"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "tradePrice"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "lowercased"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "cellDelegate"]
 - !private ["s23CustomStringConvertibleP", "currencyIcon"]
 - !private ["s23CustomStringConvertibleP", "currencyName"]
 - !private ["s23CustomStringConvertibleP", "currencySymbol"]
+- !private ["s23CustomStringConvertibleP", "favouritesButton"]
 - !private ["s23CustomStringConvertibleP", "image"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSelected"]
 - !private ["s23CustomStringConvertibleP", "lowercased"]
-- !private ["s23CustomStringConvertibleP", "setSelected"]
+- !private ["s23CustomStringConvertibleP", "shareButton"]
+- !private ["s23CustomStringConvertibleP", "tag"]
 - !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "tradePrice"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "lowercased"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "lowercased"]
 - !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "cellDelegate"]
 - !private ["s9EquatableP", "currencyIcon"]
 - !private ["s9EquatableP", "currencyName"]
 - !private ["s9EquatableP", "currencySymbol"]
+- !private ["s9EquatableP", "favouritesButton"]
 - !private ["s9EquatableP", "image"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isSelected"]
 - !private ["s9EquatableP", "lowercased"]
-- !private ["s9EquatableP", "setSelected"]
+- !private ["s9EquatableP", "shareButton"]
+- !private ["s9EquatableP", "tag"]
 - !private ["s9EquatableP", "text"]
 - !private ["s9EquatableP", "tradePrice"]
 - ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "lowercased"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["10FaveButtonAAC", "isSelected"]
 - !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "cellDelegate"]
 - !private ["s8HashableP", "currencyIcon"]
 - !private ["s8HashableP", "currencyName"]
 - !private ["s8HashableP", "currencySymbol"]
+- !private ["s8HashableP", "favouritesButton"]
 - !private ["s8HashableP", "image"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isSelected"]
 - !private ["s8HashableP", "lowercased"]
-- !private ["s8HashableP", "setSelected"]
+- !private ["s8HashableP", "shareButton"]
+- !private ["s8HashableP", "tag"]
 - !private ["s8HashableP", "text"]
 - !private ["s8HashableP", "tradePrice"]
 - ["s8HashableP", ""]
 - !private ["15LTMorphingLabelAAC", "text"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "lowercased"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "lowercased"]
 - !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "cellDelegate"]
 - !private ["So8NSCodingP", "currencyIcon"]
 - !private ["So8NSCodingP", "currencyName"]
 - !private ["So8NSCodingP", "currencySymbol"]
+- !private ["So8NSCodingP", "favouritesButton"]
 - !private ["So8NSCodingP", "image"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isSelected"]
 - !private ["So8NSCodingP", "lowercased"]
-- !private ["So8NSCodingP", "setSelected"]
+- !private ["So8NSCodingP", "shareButton"]
+- !private ["So8NSCodingP", "tag"]
 - !private ["So8NSCodingP", "text"]
 - !private ["So8NSCodingP", "tradePrice"]
 - ["So8NSCodingP", ""]
@@ -150,30 +201,41 @@ depends-member:
 - !private ["So16NSMutableCopyingP", "init"]
 - !private ["So16NSMutableCopyingP", "lowercased"]
 - ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CrytoCurrencyModelCellProtocol"]
+- ["So8NSObjectC", "FaveButton"]
 - ["So8NSObjectC", "LTMorphingLabel"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIButton"]
 - !private ["So8NSObjectC", "UIImage"]
 - ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "cellDelegate"]
 - ["So8NSObjectC", "configureCell"]
 - ["So8NSObjectC", "currencyIcon"]
 - ["So8NSObjectC", "currencyName"]
 - ["So8NSObjectC", "currencySymbol"]
+- ["So8NSObjectC", "favouritesButton"]
 - !private ["So8NSObjectC", "image"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSelected"]
 - !private ["So8NSObjectC", "lowercased"]
 - ["So8NSObjectC", "onPressFavourites"]
 - ["So8NSObjectC", "onPressShare"]
-- ["So8NSObjectC", "setSelected"]
+- ["So8NSObjectC", "shareButton"]
+- !private ["So8NSObjectC", "tag"]
 - !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "tradePrice"]
 - !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "cellDelegate"]
 - !private ["So16NSObjectProtocolP", "currencyIcon"]
 - !private ["So16NSObjectProtocolP", "currencyName"]
 - !private ["So16NSObjectProtocolP", "currencySymbol"]
+- !private ["So16NSObjectProtocolP", "favouritesButton"]
 - !private ["So16NSObjectProtocolP", "image"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isSelected"]
 - !private ["So16NSObjectProtocolP", "lowercased"]
-- !private ["So16NSObjectProtocolP", "setSelected"]
+- !private ["So16NSObjectProtocolP", "shareButton"]
+- !private ["So16NSObjectProtocolP", "tag"]
 - !private ["So16NSObjectProtocolP", "text"]
 - !private ["So16NSObjectProtocolP", "tradePrice"]
 - ["So16NSObjectProtocolP", ""]
@@ -183,6 +245,10 @@ depends-member:
 - !private ["So8NSStringC", "lowercased"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "lowercased"]
+- !private ["10RealmSwift0A15CollectionValueP", "_getBuiltinLogicValue"]
+- !private ["10RealmSwift0A15CollectionValueP", "init"]
+- !private ["10RealmSwift0A15CollectionValueP", "lowercased"]
+- !private ["10RealmSwift0A12OptionalTypeP", "_getBuiltinLogicValue"]
 - !private ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "lowercased"]
 - !private ["SS", "init"]
@@ -194,83 +260,119 @@ depends-member:
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "lowercased"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isSelected"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "tag"]
 - !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "cellDelegate"]
 - !private ["So29UIAccessibilityIdentificationP", "currencyIcon"]
 - !private ["So29UIAccessibilityIdentificationP", "currencyName"]
 - !private ["So29UIAccessibilityIdentificationP", "currencySymbol"]
+- !private ["So29UIAccessibilityIdentificationP", "favouritesButton"]
 - !private ["So29UIAccessibilityIdentificationP", "image"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
-- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "isSelected"]
+- !private ["So29UIAccessibilityIdentificationP", "shareButton"]
+- !private ["So29UIAccessibilityIdentificationP", "tag"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So29UIAccessibilityIdentificationP", "tradePrice"]
 - ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So12UIAppearanceP", "UIImage"]
+- !private ["So12UIAppearanceP", "cellDelegate"]
 - !private ["So12UIAppearanceP", "currencyIcon"]
 - !private ["So12UIAppearanceP", "currencyName"]
 - !private ["So12UIAppearanceP", "currencySymbol"]
+- !private ["So12UIAppearanceP", "favouritesButton"]
 - !private ["So12UIAppearanceP", "image"]
 - !private ["So12UIAppearanceP", "init"]
-- !private ["So12UIAppearanceP", "setSelected"]
+- !private ["So12UIAppearanceP", "isSelected"]
+- !private ["So12UIAppearanceP", "shareButton"]
+- !private ["So12UIAppearanceP", "tag"]
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So12UIAppearanceP", "tradePrice"]
 - ["So12UIAppearanceP", ""]
 - !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "cellDelegate"]
 - !private ["So21UIAppearanceContainerP", "currencyIcon"]
 - !private ["So21UIAppearanceContainerP", "currencyName"]
 - !private ["So21UIAppearanceContainerP", "currencySymbol"]
+- !private ["So21UIAppearanceContainerP", "favouritesButton"]
 - !private ["So21UIAppearanceContainerP", "image"]
 - !private ["So21UIAppearanceContainerP", "init"]
-- !private ["So21UIAppearanceContainerP", "setSelected"]
+- !private ["So21UIAppearanceContainerP", "isSelected"]
+- !private ["So21UIAppearanceContainerP", "shareButton"]
+- !private ["So21UIAppearanceContainerP", "tag"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So21UIAppearanceContainerP", "tradePrice"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So8UIButtonC", "isSelected"]
+- !private ["So8UIButtonC", "tag"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "isSelected"]
+- !private ["So9UIControlC", "tag"]
 - !private ["So17UICoordinateSpaceP", "UIImage"]
+- !private ["So17UICoordinateSpaceP", "cellDelegate"]
 - !private ["So17UICoordinateSpaceP", "currencyIcon"]
 - !private ["So17UICoordinateSpaceP", "currencyName"]
 - !private ["So17UICoordinateSpaceP", "currencySymbol"]
+- !private ["So17UICoordinateSpaceP", "favouritesButton"]
 - !private ["So17UICoordinateSpaceP", "image"]
 - !private ["So17UICoordinateSpaceP", "init"]
-- !private ["So17UICoordinateSpaceP", "setSelected"]
+- !private ["So17UICoordinateSpaceP", "isSelected"]
+- !private ["So17UICoordinateSpaceP", "shareButton"]
+- !private ["So17UICoordinateSpaceP", "tag"]
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So17UICoordinateSpaceP", "tradePrice"]
 - ["So17UICoordinateSpaceP", ""]
 - !private ["So13UIDynamicItemP", "UIImage"]
+- !private ["So13UIDynamicItemP", "cellDelegate"]
 - !private ["So13UIDynamicItemP", "currencyIcon"]
 - !private ["So13UIDynamicItemP", "currencyName"]
 - !private ["So13UIDynamicItemP", "currencySymbol"]
+- !private ["So13UIDynamicItemP", "favouritesButton"]
 - !private ["So13UIDynamicItemP", "image"]
 - !private ["So13UIDynamicItemP", "init"]
-- !private ["So13UIDynamicItemP", "setSelected"]
+- !private ["So13UIDynamicItemP", "isSelected"]
+- !private ["So13UIDynamicItemP", "shareButton"]
+- !private ["So13UIDynamicItemP", "tag"]
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "tradePrice"]
 - ["So13UIDynamicItemP", ""]
 - !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "cellDelegate"]
 - !private ["So18UIFocusEnvironmentP", "currencyIcon"]
 - !private ["So18UIFocusEnvironmentP", "currencyName"]
 - !private ["So18UIFocusEnvironmentP", "currencySymbol"]
+- !private ["So18UIFocusEnvironmentP", "favouritesButton"]
 - !private ["So18UIFocusEnvironmentP", "image"]
 - !private ["So18UIFocusEnvironmentP", "init"]
-- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- !private ["So18UIFocusEnvironmentP", "isSelected"]
+- !private ["So18UIFocusEnvironmentP", "shareButton"]
+- !private ["So18UIFocusEnvironmentP", "tag"]
 - !private ["So18UIFocusEnvironmentP", "text"]
 - !private ["So18UIFocusEnvironmentP", "tradePrice"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So11UIFocusItemP", "UIImage"]
+- !private ["So11UIFocusItemP", "cellDelegate"]
 - !private ["So11UIFocusItemP", "currencyIcon"]
 - !private ["So11UIFocusItemP", "currencyName"]
 - !private ["So11UIFocusItemP", "currencySymbol"]
+- !private ["So11UIFocusItemP", "favouritesButton"]
 - !private ["So11UIFocusItemP", "image"]
 - !private ["So11UIFocusItemP", "init"]
-- !private ["So11UIFocusItemP", "setSelected"]
+- !private ["So11UIFocusItemP", "isSelected"]
+- !private ["So11UIFocusItemP", "shareButton"]
+- !private ["So11UIFocusItemP", "tag"]
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So11UIFocusItemP", "tradePrice"]
 - ["So11UIFocusItemP", ""]
 - !private ["So27UIGestureRecognizerDelegateP", "UIImage"]
+- !private ["So27UIGestureRecognizerDelegateP", "cellDelegate"]
 - !private ["So27UIGestureRecognizerDelegateP", "currencyIcon"]
 - !private ["So27UIGestureRecognizerDelegateP", "currencyName"]
 - !private ["So27UIGestureRecognizerDelegateP", "currencySymbol"]
+- !private ["So27UIGestureRecognizerDelegateP", "favouritesButton"]
 - !private ["So27UIGestureRecognizerDelegateP", "init"]
-- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- !private ["So27UIGestureRecognizerDelegateP", "shareButton"]
 - !private ["So27UIGestureRecognizerDelegateP", "tradePrice"]
 - ["So27UIGestureRecognizerDelegateP", ""]
 - !private ["So7UIImageC", "init"]
@@ -278,80 +380,113 @@ depends-member:
 - !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["So7UILabelC", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "cellDelegate"]
 - !private ["So30UIPasteConfigurationSupportingP", "currencyIcon"]
 - !private ["So30UIPasteConfigurationSupportingP", "currencyName"]
 - !private ["So30UIPasteConfigurationSupportingP", "currencySymbol"]
+- !private ["So30UIPasteConfigurationSupportingP", "favouritesButton"]
 - !private ["So30UIPasteConfigurationSupportingP", "image"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
-- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "isSelected"]
+- !private ["So30UIPasteConfigurationSupportingP", "shareButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "tag"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
 - !private ["So30UIPasteConfigurationSupportingP", "tradePrice"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CrytoCurrencyModelCellProtocol"]
+- ["So11UIResponderC", "FaveButton"]
 - ["So11UIResponderC", "LTMorphingLabel"]
 - ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIButton"]
 - !private ["So11UIResponderC", "UIImage"]
 - ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "cellDelegate"]
 - ["So11UIResponderC", "configureCell"]
 - ["So11UIResponderC", "currencyIcon"]
 - ["So11UIResponderC", "currencyName"]
 - ["So11UIResponderC", "currencySymbol"]
+- ["So11UIResponderC", "favouritesButton"]
 - !private ["So11UIResponderC", "image"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isSelected"]
 - ["So11UIResponderC", "onPressFavourites"]
 - ["So11UIResponderC", "onPressShare"]
-- ["So11UIResponderC", "setSelected"]
+- ["So11UIResponderC", "shareButton"]
+- !private ["So11UIResponderC", "tag"]
 - !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "tradePrice"]
 - !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "cellDelegate"]
 - !private ["So30UIResponderStandardEditActionsP", "currencyIcon"]
 - !private ["So30UIResponderStandardEditActionsP", "currencyName"]
 - !private ["So30UIResponderStandardEditActionsP", "currencySymbol"]
+- !private ["So30UIResponderStandardEditActionsP", "favouritesButton"]
 - !private ["So30UIResponderStandardEditActionsP", "image"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
-- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "isSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "shareButton"]
+- !private ["So30UIResponderStandardEditActionsP", "tag"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
 - !private ["So30UIResponderStandardEditActionsP", "tradePrice"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isSelected"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "tag"]
 - ["So15UITableViewCellC", "Bool"]
+- ["So15UITableViewCellC", "CrytoCurrencyModelCellProtocol"]
+- ["So15UITableViewCellC", "FaveButton"]
 - ["So15UITableViewCellC", "LTMorphingLabel"]
 - ["So15UITableViewCellC", "String"]
+- ["So15UITableViewCellC", "UIButton"]
 - !private ["So15UITableViewCellC", "UIImage"]
 - ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "cellDelegate"]
 - ["So15UITableViewCellC", "configureCell"]
 - ["So15UITableViewCellC", "currencyIcon"]
 - ["So15UITableViewCellC", "currencyName"]
 - ["So15UITableViewCellC", "currencySymbol"]
+- ["So15UITableViewCellC", "favouritesButton"]
 - ["So15UITableViewCellC", "init"]
 - ["So15UITableViewCellC", "onPressFavourites"]
 - ["So15UITableViewCellC", "onPressShare"]
-- ["So15UITableViewCellC", "setSelected"]
+- ["So15UITableViewCellC", "shareButton"]
 - ["So15UITableViewCellC", "tradePrice"]
 - ["So15UITableViewCellC", ""]
 - !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "cellDelegate"]
 - !private ["So18UITraitEnvironmentP", "currencyIcon"]
 - !private ["So18UITraitEnvironmentP", "currencyName"]
 - !private ["So18UITraitEnvironmentP", "currencySymbol"]
+- !private ["So18UITraitEnvironmentP", "favouritesButton"]
 - !private ["So18UITraitEnvironmentP", "image"]
 - !private ["So18UITraitEnvironmentP", "init"]
-- !private ["So18UITraitEnvironmentP", "setSelected"]
+- !private ["So18UITraitEnvironmentP", "isSelected"]
+- !private ["So18UITraitEnvironmentP", "shareButton"]
+- !private ["So18UITraitEnvironmentP", "tag"]
 - !private ["So18UITraitEnvironmentP", "text"]
 - !private ["So18UITraitEnvironmentP", "tradePrice"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "CrytoCurrencyModelCellProtocol"]
+- ["So6UIViewC", "FaveButton"]
 - ["So6UIViewC", "LTMorphingLabel"]
 - ["So6UIViewC", "String"]
+- ["So6UIViewC", "UIButton"]
 - !private ["So6UIViewC", "UIImage"]
 - ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "cellDelegate"]
 - ["So6UIViewC", "configureCell"]
 - ["So6UIViewC", "currencyIcon"]
 - ["So6UIViewC", "currencyName"]
 - ["So6UIViewC", "currencySymbol"]
+- ["So6UIViewC", "favouritesButton"]
 - !private ["So6UIViewC", "image"]
 - ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isSelected"]
 - ["So6UIViewC", "onPressFavourites"]
 - ["So6UIViewC", "onPressShare"]
-- ["So6UIViewC", "setSelected"]
+- ["So6UIViewC", "shareButton"]
+- !private ["So6UIViewC", "tag"]
 - !private ["So6UIViewC", "text"]
 - ["So6UIViewC", "tradePrice"]
 - !private ["9Alamofire14URLConvertibleP", "init"]
@@ -359,15 +494,20 @@ depends-member:
 - !private ["s23_BidirectionalIndexableP", "init"]
 - !private ["s23_BidirectionalIndexableP", "lowercased"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "cellDelegate"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "currencyIcon"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "currencyName"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "currencySymbol"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "favouritesButton"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
-- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "isSelected"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "shareButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tag"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tradePrice"]
 - ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
@@ -386,16 +526,21 @@ depends-member:
 - !private ["s14_IndexableBaseP", "init"]
 - !private ["s14_IndexableBaseP", "lowercased"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cellDelegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currencyIcon"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currencyName"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currencySymbol"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "favouritesButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSelected"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shareButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tag"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tradePrice"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "lowercased"]
 - !private ["s26_RangeReplaceableIndexableP", "init"]
@@ -404,11 +549,13 @@ depends-member:
 - !private ["s16_SwiftStringViewP", "lowercased"]
 depends-nominal:
 - !private "s23BidirectionalCollectionP"
+- !private "Sb"
 - "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "s10CollectionP"
 - !private "s10ComparableP"
 - "10CryptoLive22CrytoCurrencyModelCellC"
+- !private "10CryptoLive30CrytoCurrencyModelCellProtocolP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
@@ -416,9 +563,11 @@ depends-nominal:
 - !private "s9DecodableP"
 - !private "s9EncodableP"
 - "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "10FaveButtonAAC"
 - "s8HashableP"
 - !private "15LTMorphingLabelAAC"
 - !private "s25LosslessStringConvertibleP"
@@ -433,6 +582,8 @@ depends-nominal:
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
 - !private "s26RangeReplaceableCollectionP"
+- !private "10RealmSwift0A15CollectionValueP"
+- !private "10RealmSwift0A12OptionalTypeP"
 - !private "s8SequenceP"
 - !private "SS"
 - !private "s14StringProtocolP"
@@ -442,7 +593,9 @@ depends-nominal:
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
 - !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
 - "So17UICoordinateSpaceP"
 - "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
@@ -455,12 +608,14 @@ depends-nominal:
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
 - "So15UITableViewCellC"
 - "So18UITraitEnvironmentP"
 - "So6UIViewC"
 - !private "9Alamofire14URLConvertibleP"
 - !private "s23_BidirectionalIndexableP"
 - "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
@@ -477,38 +632,96 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Fusuma/Fusuma.framework/Modules/Fusuma.swiftmodule/x86_64.swiftmodule"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Modules/LTMorphingLabel.swiftmodule/x86_64.swiftmodule"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Modules/GearRefreshControl.swiftmodule/x86_64.swiftmodule"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/FaveButton/FaveButton.framework/Modules/FaveButton.swiftmodule/x86_64.swiftmodule"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/RealmSwift.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Fusuma/Fusuma.framework/Headers/Fusuma-umbrella.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel-umbrella.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Headers/GearRefreshControl-umbrella.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/FaveButton/FaveButton.framework/Headers/FaveButton-umbrella.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSchema.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectSchema.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm+Sync.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration+Sync.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/NSError+RLMSync.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMThreadSafeReference.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMOptionalBase.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObjectBase.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMListBase.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObjectBase_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncUtil_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMSyncConfiguration_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMCollection_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMProperty_Private.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUtil.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/Realm.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealm.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMPlatform.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncSession.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncPermission.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMMigration.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncConfiguration.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMRealmConfiguration.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMCollection.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncManager.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncUser.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMSyncCredentials.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMResults.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMConstants.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMObject.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Fusuma/Fusuma.framework/Headers/Fusuma-Swift.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel-Swift.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Headers/GearRefreshControl-Swift.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/FaveButton/FaveButton.framework/Headers/FaveButton-Swift.h"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Headers/RealmSwift-Swift.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMArray.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Headers/RLMProperty.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Fusuma/Fusuma.framework/Modules/module.modulemap"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Modules/module.modulemap"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/GearRefreshControl/GearRefreshControl.framework/Modules/module.modulemap"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Realm/Realm.framework/Modules/module.modulemap"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/FaveButton/FaveButton.framework/Modules/module.modulemap"
 - "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/Charts/Charts.framework/Modules/module.modulemap"
-interface-hash: "3f87c64a081c67f4b4637b941252c961"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework/Modules/module.modulemap"
+interface-hash: "8b482ed62a04f6ed8a6e875bda36981c"

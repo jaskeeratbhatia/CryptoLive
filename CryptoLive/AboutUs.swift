@@ -24,8 +24,8 @@ class AboutUs: UIViewController {
         background.frame = self.view.bounds
         self.view.layer.insertSublayer(background, at: 0)
         aboutView.layer.shadowColor = UIColor(white: 0.3, alpha: 0.5).cgColor
-        aboutView.layer.shadowRadius = 10
-        aboutView.layer.shadowOffset = CGSize(width: 5, height: 5)
+        aboutView.layer.shadowRadius = 15
+        aboutView.layer.shadowOffset = CGSize(width: 0, height: 0)
         aboutView.layer.shadowOpacity = 0.8
         seperatorViewLeadingConstraint.constant = 500
         aboutViewHeightConstraint.constant = 0
@@ -54,16 +54,6 @@ class AboutUs: UIViewController {
                 }, completion: nil)
             }
         }
-        
-        
-        
-//        UIView.animate(withDuration: 0.5) {
-//            self.aboutHeadingLabel.text = "About"
-//            self.seperatorViewLeadingConstraint.constant = 20
-//            self.aboutViewHeightConstraint.constant = 300
-//            self.AboutText.text = ABOUT_US_TEXT
-//            self.view.layoutIfNeeded()
-//        }
     }
 
     override func didReceiveMemoryWarning() {

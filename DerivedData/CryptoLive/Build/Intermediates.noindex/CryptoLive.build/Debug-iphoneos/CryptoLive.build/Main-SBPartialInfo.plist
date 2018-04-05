@@ -4,8 +4,10 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>EuphemiaCAS.ttc</string>
+		<string>Avenir.ttc</string>
+		<string>AvenirNext.ttc</string>
 		<string>HelveticaNeue.ttc</string>
+		<string>EuphemiaCAS.ttc</string>
 	</array>
 </dict>
 </plist>

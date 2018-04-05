@@ -1,0 +1,121 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So5TimerC", ""]
+- ["So5TimerC", "schedule"]
+- ["So5TimerC", "schedule"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "CFAbsoluteTimeGetCurrent"
+- !private "CFRunLoopAddTimer"
+- !private "CFRunLoopGetCurrent"
+- !private "CFRunLoopMode"
+- "CFRunLoopTimer"
+- !private "CFRunLoopTimerCreateWithHandler"
+- "TimeInterval"
+- "Timer"
+- "Void"
+- !private "kCFAllocatorDefault"
+depends-member:
+- !private ["SC13CFRunLoopModeV", "commonModes"]
+- !private ["s7CVarArgP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s7CVarArgP", "CFRunLoopAddTimer"]
+- !private ["s7CVarArgP", "CFRunLoopGetCurrent"]
+- !private ["s7CVarArgP", "CFRunLoopMode"]
+- !private ["s7CVarArgP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["s7CVarArgP", "kCFAllocatorDefault"]
+- !private ["s28CustomDebugStringConvertibleP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s28CustomDebugStringConvertibleP", "CFRunLoopAddTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "CFRunLoopGetCurrent"]
+- !private ["s28CustomDebugStringConvertibleP", "CFRunLoopMode"]
+- !private ["s28CustomDebugStringConvertibleP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "kCFAllocatorDefault"]
+- !private ["s23CustomStringConvertibleP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s23CustomStringConvertibleP", "CFRunLoopAddTimer"]
+- !private ["s23CustomStringConvertibleP", "CFRunLoopGetCurrent"]
+- !private ["s23CustomStringConvertibleP", "CFRunLoopMode"]
+- !private ["s23CustomStringConvertibleP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["s23CustomStringConvertibleP", "kCFAllocatorDefault"]
+- !private ["s9EquatableP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s9EquatableP", "CFRunLoopAddTimer"]
+- !private ["s9EquatableP", "CFRunLoopGetCurrent"]
+- !private ["s9EquatableP", "CFRunLoopMode"]
+- !private ["s9EquatableP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["s9EquatableP", "commonModes"]
+- !private ["s9EquatableP", "kCFAllocatorDefault"]
+- !private ["s8HashableP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s8HashableP", "CFRunLoopAddTimer"]
+- !private ["s8HashableP", "CFRunLoopGetCurrent"]
+- !private ["s8HashableP", "CFRunLoopMode"]
+- !private ["s8HashableP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["s8HashableP", "commonModes"]
+- !private ["s8HashableP", "kCFAllocatorDefault"]
+- !private ["So8NSObjectC", "CFAbsoluteTimeGetCurrent"]
+- !private ["So8NSObjectC", "CFRunLoopAddTimer"]
+- !private ["So8NSObjectC", "CFRunLoopGetCurrent"]
+- !private ["So8NSObjectC", "CFRunLoopMode"]
+- ["So8NSObjectC", "CFRunLoopTimer"]
+- !private ["So8NSObjectC", "CFRunLoopTimerCreateWithHandler"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "Timer"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "kCFAllocatorDefault"]
+- ["So8NSObjectC", "schedule"]
+- !private ["So16NSObjectProtocolP", "CFAbsoluteTimeGetCurrent"]
+- !private ["So16NSObjectProtocolP", "CFRunLoopAddTimer"]
+- !private ["So16NSObjectProtocolP", "CFRunLoopGetCurrent"]
+- !private ["So16NSObjectProtocolP", "CFRunLoopMode"]
+- !private ["So16NSObjectProtocolP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["So16NSObjectProtocolP", "kCFAllocatorDefault"]
+- !private ["s16RawRepresentableP", "commonModes"]
+- !private ["So5TimerC", "CFAbsoluteTimeGetCurrent"]
+- !private ["So5TimerC", "CFRunLoopAddTimer"]
+- !private ["So5TimerC", "CFRunLoopGetCurrent"]
+- !private ["So5TimerC", "CFRunLoopMode"]
+- ["So5TimerC", "CFRunLoopTimer"]
+- !private ["So5TimerC", "CFRunLoopTimerCreateWithHandler"]
+- ["So5TimerC", "TimeInterval"]
+- ["So5TimerC", "Timer"]
+- ["So5TimerC", "Void"]
+- !private ["So5TimerC", "kCFAllocatorDefault"]
+- ["So5TimerC", "schedule"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CFAbsoluteTimeGetCurrent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CFRunLoopAddTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CFRunLoopGetCurrent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CFRunLoopMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCFAllocatorDefault"]
+- !private ["s20_SwiftNewtypeWrapperP", "commonModes"]
+depends-nominal:
+- !private "SC13CFRunLoopModeV"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "s16RawRepresentableP"
+- "So5TimerC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Target Support Files/DKLoginButton/DKLoginButton-umbrella.h"
+- "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/DKLoginButton.build/unextended-module.modulemap"
+interface-hash: "aa76f8f0612ea1d9c28094d27054d6e6"

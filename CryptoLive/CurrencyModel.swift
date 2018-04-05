@@ -19,6 +19,7 @@ class CurrencyModel{
     private var _rank : String!
     private var _percent_change_24h : String!
     private var _last_updated : String!
+    public var _isFavourite : Bool!
     
     var symbol : String {
         if _symbol == nil{
@@ -74,6 +75,13 @@ class CurrencyModel{
             _last_updated = ""
         }
         return _last_updated
+    }
+    
+    var isFavourite : Bool {
+        if _isFavourite == nil{
+            _isFavourite = false
+        }
+        return _isFavourite
     }
     
     init(currencyDict : Dictionary<String, AnyObject>){

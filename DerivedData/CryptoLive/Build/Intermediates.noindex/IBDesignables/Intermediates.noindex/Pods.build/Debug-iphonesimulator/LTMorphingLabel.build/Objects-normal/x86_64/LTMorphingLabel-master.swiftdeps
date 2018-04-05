@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "c561e0f945e116a6f2b9bbddaabb790a"
-build_time: [1520534632, 708019000]
+options: "e133abb6f63d3a1062290b71d6fedf26"
+build_time: [1522728863, 637706000]
 inputs:
   "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTCharacterDiffResult.swift": [1520534482, 0]
   "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTCharacterLimbo.swift": [1520534482, 0]

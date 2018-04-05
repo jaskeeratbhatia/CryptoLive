@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>EKM82MG69H.com.jb.CryptoLive1</string>
+	<string>EKM82MG69H.com.jb.CryptoLive2</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>EKM82MG69H.com.jb.CryptoLive1</string>
+		<string>EKM82MG69H.com.jb.CryptoLive2</string>
 	</array>
 </dict>
 </plist>

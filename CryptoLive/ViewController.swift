@@ -11,8 +11,10 @@ import Alamofire
 import LTMorphingLabel
 import GearRefreshControl
 import FaveButton
+import RealmSwift
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate{
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate, CrytoCurrencyModelCellProtocol {
+ 
     @IBOutlet weak var sideMenuStackViewLeadingConstraint: NSLayoutConstraint!
     @IBOutlet weak var sideMenuStackViewTrailingConstraint: NSLayoutConstraint!
     @IBOutlet weak var sideMenuHeadingSeperatorViewTrailingConstraint: NSLayoutConstraint!
@@ -30,6 +32,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var filteredCurrencies = [CurrencyModel]()
     var gearRefreshControl: GearRefreshControl!
     var isSearchActive = false
+    var localCurrencies = [FavouriteCurrency]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,8 +74,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         //tableView.reloadData()
         navigationController?.navigationBar.isHidden = true
         
+       
     
     downloadData {
+        self.localCurrencies = DatabaseManager.shared.getAllFavourites()!
+        for local in self.localCurrencies{
+            let currencyIndex = self.currencies.index(where: { (currency)  in
+                currency.symbol == local.currencySymbol
+            })
+            self.currencies[currencyIndex!]._isFavourite = true
+        }
+        
     print(self.currencies.count)
     //self.tableView.reloadData()
     let range = NSMakeRange(0, self.tableView.numberOfSections)
@@ -90,20 +102,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     @IBAction func onCancelPress(_ sender: Any) {
+        tableView.isUserInteractionEnabled = true
+        searchBar.isUserInteractionEnabled = true
+        
         UIView.animate(withDuration: 0.5) {
             self.sideMenuLeadingConstraint.constant = -self.view.frame.width/1.25
             self.sideMenuHeadingSeperatorViewTrailingConstraint.constant = 400
             self.sideMenuStackViewTrailingConstraint.constant = 400
             self.sideMenuStackViewLeadingConstraint.constant = -600
-//            self.tableView.alpha = 1
-//            self.searchBar.alpha = 1
-//            self.navBarView.alpha = 1
             self.view.layoutIfNeeded()
         }
         self.sideMenuHeadingLabel.text = ""
     }
     
     @IBAction func onPressOptions(_ sender: Any) {
+        tableView.isUserInteractionEnabled = false
+        searchBar.isUserInteractionEnabled = false
         UIView.animate(withDuration: 0.3, animations: {
             self.sideMenuLeadingConstraint.constant = -20
             
@@ -172,8 +186,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         currencies = []
         //tableView.reloadData()
         navigationController?.navigationBar.isHidden = true
-        
+        localCurrencies =  DatabaseManager.shared.getAllFavourites()!
+        print(localCurrencies)
         downloadData {
+            self.localCurrencies = DatabaseManager.shared.getAllFavourites()!
+            for local in self.localCurrencies{
+                let currencyIndex = self.currencies.index(where: { (currency)  in
+                    currency.symbol == local.currencySymbol
+                })
+                self.currencies[currencyIndex!]._isFavourite = true
+            }
+            
             print(self.currencies.count)
             //self.tableView.reloadData()
             let range = NSMakeRange(0, self.tableView.numberOfSections)
@@ -189,13 +212,28 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         Alamofire.request(URL(string : ALL_COINS_URL)!).responseJSON{
             response in
             
-            print(response)
+            //print(response)
             if let dict = response.value  as? [Dictionary<String,AnyObject>] {
                 //print(dict)
                 
-                
+                //self.localCurrencies = DatabaseManager.shared.getAllFavourites()!
+                print("***************")
+                print(self.localCurrencies)
                 for currency in dict{
                     let newCurrency = CurrencyModel(currencyDict: currency)
+                    
+//                    let localCurrency = FavouriteCurrency()
+//                    localCurrency.currencySymbol = (currency["symbol"] as? String)!
+                    //print(localCurrency)
+                    
+                    
+//                    if  self.localCurrencies.contains(localCurrency){
+//                        newCurrency._isFavourite = true
+//                        print("\(localCurrency.currencySymbol) is already Favourite")
+//                    }
+//                    else{
+//                        //print("Nothing found")
+//                    }
                     self.currencies.append(newCurrency)
                     
                 }
@@ -207,6 +245,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         
     }
+    
+    
+    
+    @IBAction func onClickSignOut(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+        print("signout")
+    }
+    
 }
 
 extension ViewController  {
@@ -223,12 +269,19 @@ extension ViewController  {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "currencyCell", for: indexPath) as? CrytoCurrencyModelCell{
             
+            cell.cellDelegate = self
+            cell.tag = indexPath.row
+            cell.favouritesButton.tag = indexPath.row
+            cell.shareButton.tag   = indexPath.row
+            //cell.favouritesButton.isSelected = false
+            
             if isSearchActive{
-                cell.configureCell(name: filteredCurrencies[indexPath.row].name, symbol: filteredCurrencies[indexPath.row].symbol, price: filteredCurrencies[indexPath.row].price_usd)
+                cell.configureCell(name: filteredCurrencies[indexPath.row].name, symbol: filteredCurrencies[indexPath.row].symbol, price: filteredCurrencies[indexPath.row].price_usd, isFavourite : filteredCurrencies[indexPath.row].isFavourite)
                 return cell
             }
             else{
-                cell.configureCell(name: currencies[indexPath.row].name, symbol: currencies[indexPath.row].symbol, price: currencies[indexPath.row].price_usd)
+                cell.configureCell(name: currencies[indexPath.row].name, symbol: currencies[indexPath.row].symbol, price: currencies[indexPath.row].price_usd, isFavourite : currencies[indexPath.row].isFavourite)
+            
                 return cell
             }
             
@@ -259,9 +312,9 @@ extension ViewController  {
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        cell.layer.transform = CATransform3DMakeScale(0.8,0.8,0.2)
-        UIView.animate(withDuration: 1, animations: {
-            cell.layer.transform = CATransform3DMakeScale(1,1,0.2)
+        cell.layer.transform = CATransform3DMakeScale(0.8,0.8,1)
+        UIView.animate(withDuration: 0.6, animations: {
+            cell.layer.transform = CATransform3DMakeScale(1,1,1)
         })
 //                UIView.animate(withDuration: 0.4, animations: {
 //                    cell.layer.transform = CATransform3DMakeScale(1.5,1.5,1)
@@ -275,6 +328,72 @@ extension ViewController  {
         return CGFloat(100)
     }
     
+    func currencyTableCellDidTapHeart(_ tag: Int) {
+        if isSearchActive{
+            let currSymbol = filteredCurrencies[tag].symbol
+            let pos = currencies.index(where: { (currency)  in
+                currency.symbol == currSymbol
+            })
+            if currencies[pos!].isFavourite{
+                let localCurrency = FavouriteCurrency()
+                localCurrency.currencySymbol = currencies[pos!].symbol
+                DatabaseManager.shared.deletefromFavoutites(currency : localCurrency)
+                }
+            else{
+                let localCurrency = FavouriteCurrency()
+                localCurrency.currencySymbol = currencies[pos!].symbol
+                DatabaseManager.shared.addtoFavourites(currency: localCurrency)
+                }
+            print(currencies[pos!].symbol)
+        }
+        else{
+            if currencies[tag].isFavourite{
+                let localCurrency = FavouriteCurrency()
+                localCurrency.currencySymbol = currencies[tag].symbol
+                print(localCurrency)
+                DatabaseManager.shared.deletefromFavoutites(currency : localCurrency)
+                }
+            else{
+                let localCurrency = FavouriteCurrency()
+                localCurrency.currencySymbol = currencies[tag].symbol
+                DatabaseManager.shared.addtoFavourites(currency: localCurrency)
+                }
+            }
+        currencies = []
+        downloadData {
+            self.localCurrencies = DatabaseManager.shared.getAllFavourites()!
+            for local in self.localCurrencies{
+                let currencyIndex = self.currencies.index(where: { (currency)  in
+                    currency.symbol == local.currencySymbol
+                })
+                self.currencies[currencyIndex!]._isFavourite = true
+//                print("===============")
+//                print(self.localCurrencies)
+            }
+            if self.isSearchActive{
+                let searchItem = self.searchBar.text!.lowercased()
+                self.filteredCurrencies = self.currencies.filter({$0.name.lowercased().range(of: searchItem) != nil})
+            }
+            self.tableView.reloadRows(at: [IndexPath(row: tag, section: 0)], with: .none)
+        }
+    }
+        
+    
+    
+    func currencyTableCellDidTapShare(_ tag: Int) {
+        var shareText : String = "Empty String"
+        if isSearchActive{
+            shareText = "\(filteredCurrencies[tag].name)(\(filteredCurrencies[tag].symbol)) is currently priced at  \(filteredCurrencies[tag].price_usd) USD"
+        }
+        else{
+            shareText = "\(currencies[tag].name)(\(currencies[tag].symbol)) is currently priced at  \(currencies[tag].price_usd) USD"
+        }
+        
+        let activityVC = UIActivityViewController(activityItems: [shareText as Any] , applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = self.view
+        print(shareText)
+        self.present(activityVC, animated: true, completion: nil)
+    }
     
 }
 

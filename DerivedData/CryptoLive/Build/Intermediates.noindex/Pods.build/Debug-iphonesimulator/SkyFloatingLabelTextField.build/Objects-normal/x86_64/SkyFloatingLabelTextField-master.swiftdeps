@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "7e57d8932a74de2ce93b56c014064383"
+build_time: [1522642611, 862982000]
+inputs:
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextField.swift": [1522642431, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextFieldWithIcon.swift": [1522642431, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/SkyFloatingLabelTextField/Sources/UITextField+fixCaretPosition.swift": [1522642431, 0]

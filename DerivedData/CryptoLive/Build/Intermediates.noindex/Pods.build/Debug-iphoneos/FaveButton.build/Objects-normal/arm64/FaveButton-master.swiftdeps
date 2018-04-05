@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "b7c71b12897fad9415c2803e6d4d4d66"
-build_time: [1521684075, 428543000]
+options: "92e4176ed849eea0b0c793309292e9ab"
+build_time: [1522891601, 112116000]
 inputs:
   "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/FaveButton/Source/Helpers/Constraints+.swift": [1521210538, 0]
   "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/FaveButton/Source/Helpers/Easing.swift": [1521210538, 0]

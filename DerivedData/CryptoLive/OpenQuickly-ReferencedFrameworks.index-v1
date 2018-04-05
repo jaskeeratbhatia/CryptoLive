@@ -2,22 +2,71 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>Alamofire</string>
-	<string>CoreServices</string>
+	<string>FBSDKShareKit</string>
+	<string>FirebaseCore</string>
+	<string>Bolts</string>
+	<string>Photos</string>
+	<string>libkern</string>
+	<string>FirebaseStorage</string>
 	<string>Dispatch</string>
-	<string>QuartzCore</string>
-	<string>CoreGraphics</string>
-	<string>Quartz</string>
-	<string>CoreData</string>
-	<string>GearRefreshControl</string>
+	<string>Realm</string>
+	<string>FirebaseDatabase</string>
+	<string>StoreKit</string>
+	<string>GTMSessionFetcherOSX</string>
+	<string>AssetsLibrary</string>
+	<string>Firebase</string>
+	<string>CoreServices</string>
+	<string>RealmSwift</string>
 	<string>Charts</string>
+	<string>SafariServices</string>
+	<string>AVFoundation</string>
+	<string>FirebaseMessaging</string>
+	<string>GearRefreshControl</string>
+	<string>IQKeyboardManagerSwift</string>
+	<string>GoogleMobileAds</string>
 	<string>MobileCoreServices</string>
-	<string>UIKit</string>
-	<string>Foundation</string>
-	<string>Cocoa</string>
-	<string>FaveButton</string>
 	<string>LTMorphingLabel</string>
-	<string>SystemConfiguration</string>
+	<string>FirebaseInstanceID</string>
+	<string>CoreText</string>
+	<string>AdSupport</string>
+	<string>FBSDKLoginKit</string>
+	<string>FirebaseAuth</string>
+	<string>FirebaseInvites</string>
+	<string>WatchKit</string>
+	<string>FBSDKCoreKit</string>
 	<string>AppKit</string>
+	<string>FirebaseAppIndexing</string>
+	<string>Cocoa</string>
+	<string>FirebasePerformance</string>
+	<string>Crashlytics</string>
+	<string>Accounts</string>
+	<string>FaveButton</string>
+	<string>net</string>
+	<string>CoreData</string>
+	<string>CommonCrypto</string>
+	<string>FirebaseRemoteConfig</string>
+	<string>Alamofire</string>
+	<string>realm</string>
+	<string>CoreMotion</string>
+	<string>FirebaseCrash</string>
+	<string>GTMSessionFetcher</string>
+	<string>AudioToolbox</string>
+	<string>QuartzCore</string>
+	<string>SystemConfiguration</string>
+	<string>FirebaseAnalytics</string>
+	<string>Security</string>
+	<string>Social</string>
+	<string>CoreGraphics</string>
+	<string>GTMSessionFetcherIOS</string>
+	<string>objc</string>
+	<string>FirebaseDynamicLinks</string>
+	<string>UIKit</string>
+	<string>Fusuma</string>
+	<string>Fabric</string>
+	<string>Foundation</string>
+	<string>CoreTelephony</string>
+	<string>sys</string>
+	<string>Quartz</string>
+	<string>FirebaseFirestore</string>
 </array>
 </plist>

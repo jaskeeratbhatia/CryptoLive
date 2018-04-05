@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "78ada1630ad5f8be4fcec051a51c3c6b"
+build_time: [1522642594, 368765000]
+inputs:
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Fusuma/Sources/FSAlbumView.swift": [1521702081, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Fusuma/Sources/FSAlbumViewCell.swift": [1521702081, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Fusuma/Sources/FSCameraView.swift": [1521702081, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Fusuma/Sources/FSConstants.swift": [1521702081, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Fusuma/Sources/FSImageCropView.swift": [1521702081, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Fusuma/Sources/FSVideoCameraView.swift": [1521702081, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Fusuma/Sources/FusumaViewController.swift": [1521702081, 0]

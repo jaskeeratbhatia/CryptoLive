@@ -4,33 +4,28 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Headers",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers",
       'contents': [
         {
           'type': 'file',
-          'name': "LTMorphingLabel-Swift.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Headers/LTMorphingLabel-Swift.h"
+          'name': "SkyFloatingLabelTextField-Swift.h",
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
         },
         {
           'type': 'file',
-          'name': "LTMorphingLabel-umbrella.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Target Support Files/LTMorphingLabel/LTMorphingLabel-umbrella.h"
-        },
-        {
-          'type': 'file',
-          'name': "LTMorphingLabel.h",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/LTMorphingLabel/LTMorphingLabel/LTMorphingLabel.h"
+          'name': "SkyFloatingLabelTextField-umbrella.h",
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/LTMorphingLabel/LTMorphingLabel.framework/Modules",
+      'name': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/LTMorphingLabel.build/module.modulemap"
+          'external-contents': "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/DerivedData/CryptoLive/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SkyFloatingLabelTextField.build/module.modulemap"
         }
       ]
     }

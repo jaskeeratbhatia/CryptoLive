@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "81d9798b06571483690cc1ce282e8579"
+build_time: [1522891544, 697654000]
+inputs:
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/DKLoginButton/loginbutton/DKButton/CGRectEx.swift": [1522659068, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/DKLoginButton/loginbutton/DKButton/DKTransitionButton.swift": [1522659068, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/DKLoginButton/loginbutton/DKButton/DKViewControllerExt.swift": [1522659767, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/DKLoginButton/loginbutton/DKButton/NSTimerEx.swift": [1522659068, 0]
+  "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/DKLoginButton/loginbutton/DKButton/SpinerLayer.swift": [1522659068, 0]

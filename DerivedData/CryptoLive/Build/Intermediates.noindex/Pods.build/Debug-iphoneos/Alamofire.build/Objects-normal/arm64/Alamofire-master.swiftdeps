@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "bf4b46a91d83cf594d1ed778205b5a14"
-build_time: [1521684068, 417061000]
+options: "9c2991ff4064e37a6a23829bf01b9834"
+build_time: [1522891546, 344789000]
 inputs:
   "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/AFError.swift": [1520248358, 0]
   "/Users/Jaskeerat/Desktop/CryptoLive/CryptoLive/Pods/Alamofire/Source/Alamofire.swift": [1520248358, 0]

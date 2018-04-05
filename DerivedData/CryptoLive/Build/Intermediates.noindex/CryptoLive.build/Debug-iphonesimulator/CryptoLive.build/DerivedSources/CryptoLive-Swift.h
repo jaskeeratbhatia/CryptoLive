@@ -173,7 +173,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
+@import QuartzCore;
 @import Charts;
+@import ObjectiveC;
+@import RealmSwift;
 @import Foundation;
 @import CoreGraphics;
 #endif
@@ -187,6 +190,27 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wnullability"
 
 SWIFT_MODULE_NAMESPACE_PUSH("CryptoLive")
+@class LTMorphingLabel;
+@class UIView;
+@class NSLayoutConstraint;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC10CryptoLive7AboutUs")
+@interface AboutUs : UIViewController
+@property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified aboutHeadingLabel;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified aboutView;
+@property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified AboutText;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified seperatorViewLeadingConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified aboutViewHeightConstraint;
+- (void)viewDidLoad;
+- (void)loadAnimatedUI;
+- (void)didReceiveMemoryWarning;
+- (IBAction)onPressCancel:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIApplication;
 
@@ -202,9 +226,11 @@ SWIFT_CLASS("_TtC10CryptoLive11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class LTMorphingLabel;
+
+
 @class UIImageView;
-@class NSCoder;
+@class FaveButton;
+@class UIButton;
 
 SWIFT_CLASS("_TtC10CryptoLive22CrytoCurrencyModelCell")
 @interface CrytoCurrencyModelCell : UITableViewCell
@@ -212,9 +238,10 @@ SWIFT_CLASS("_TtC10CryptoLive22CrytoCurrencyModelCell")
 @property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified currencySymbol;
 @property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified currencyName;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified currencyIcon;
-- (IBAction)onPressFavourites:(id _Nonnull)sender;
-- (IBAction)onPressShare:(id _Nonnull)sender;
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+@property (nonatomic, weak) IBOutlet FaveButton * _Null_unspecified shareButton;
+@property (nonatomic, weak) IBOutlet FaveButton * _Null_unspecified favouritesButton;
+- (IBAction)onPressFavourites:(UIButton * _Nonnull)sender;
+- (IBAction)onPressShare:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -222,8 +249,6 @@ SWIFT_CLASS("_TtC10CryptoLive22CrytoCurrencyModelCell")
 @class UISegmentedControl;
 @class UILabel;
 @class CandleStickChartView;
-@class UIButton;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC10CryptoLive28CurrencyDetailViewController")
 @interface CurrencyDetailViewController : UIViewController <ChartViewDelegate>
@@ -247,15 +272,95 @@ SWIFT_CLASS("_TtC10CryptoLive28CurrencyDetailViewController")
 
 
 
-@class UIView;
-@class NSLayoutConstraint;
-@class UISearchBar;
-@class UIVisualEffectView;
+
+SWIFT_CLASS("_TtC10CryptoLive15DatabaseManager")
+@interface DatabaseManager : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+@end
+
+@class RLMRealm;
+@class RLMObjectSchema;
+@class RLMSchema;
+
+SWIFT_CLASS("_TtC10CryptoLive17FavouriteCurrency")
+@interface FavouriteCurrency : RealmSwiftObject
+@property (nonatomic, copy) NSString * _Nonnull currencySymbol;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRealm:(RLMRealm * _Nonnull)realm schema:(RLMObjectSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id _Nonnull)value schema:(RLMSchema * _Nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10CryptoLive23FavouritesTableViewCell")
+@interface FavouritesTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified cellOuterView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified currencySymbolText;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified detailsBorderView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified currencyLogoImage;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified logoBorderView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified currencyName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified currencyRank;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified currencyPriceUSD;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified overlayView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified removeButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified shareButton;
+- (IBAction)didTapShare:(UIButton * _Nonnull)sender;
+- (IBAction)didTapRemove:(UIButton * _Nonnull)sender;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UITableView;
+
+SWIFT_CLASS("_TtC10CryptoLive24FavouritesViewController")
+@interface FavouritesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified seperatorViewleadingConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified favouritesTableBottomConstraint;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified favouritesTable;
+- (void)viewDidLoad;
+- (void)loadAnimatedUI;
+- (IBAction)didPressCancel:(id _Nonnull)sender;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView willDisplayCell:(UITableViewCell * _Nonnull)cell forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIVisualEffectView;
+@class UIGestureRecognizer;
+
+SWIFT_CLASS("_TtC10CryptoLive21ProfileViewController")
+@interface ProfileViewController : UIViewController
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified profileViewHeightConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified seperatorViewLeadingConstraint;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified zoomedInProfileImage;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified zoomInProfilePicView;
+@property (nonatomic, weak) IBOutlet UIVisualEffectView * _Null_unspecified visualEffect;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImage;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified profileView;
+- (void)viewDidLoad;
+- (void)imageTappedWithGesture:(UIGestureRecognizer * _Nonnull)gesture;
+- (void)loadAnimatedUI;
+- (IBAction)onPressSubViewCancel:(id _Nonnull)sender;
+- (IBAction)onPressSubViewEdit:(id _Nonnull)sender;
+- (IBAction)onPressCancel:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISearchBar;
 @class UIScrollView;
 
 SWIFT_CLASS("_TtC10CryptoLive14ViewController")
 @interface ViewController : UIViewController <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuStackViewLeadingConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuStackViewTrailingConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuHeadingSeperatorViewTrailingConstraint;
 @property (nonatomic, weak) IBOutlet LTMorphingLabel * _Null_unspecified sideMenuHeadingLabel;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified navBarView;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified sideMenuLeadingConstraint;

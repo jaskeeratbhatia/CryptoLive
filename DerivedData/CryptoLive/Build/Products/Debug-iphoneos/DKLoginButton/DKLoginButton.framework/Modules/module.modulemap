@@ -1,0 +1,11 @@
+framework module DKLoginButton {
+  umbrella header "DKLoginButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module DKLoginButton.Swift {
+    header "DKLoginButton-Swift.h"
+    requires objc
+}

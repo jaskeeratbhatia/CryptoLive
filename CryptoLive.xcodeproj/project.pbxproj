@@ -22,8 +22,30 @@
 		5B1550042063447E00083D65 /* CAGradientLayer+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1550032063447E00083D65 /* CAGradientLayer+Convenience.swift */; };
 		5B1550062063468400083D65 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1550052063468400083D65 /* AboutUs.swift */; };
 		5B1550082063655400083D65 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1550072063655400083D65 /* ProfileViewController.swift */; };
+		5B1550182069A50E00083D65 /* FavouriteCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1550172069A50E00083D65 /* FavouriteCurrency.swift */; };
+		5B1550392069ACB600083D65 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1550382069ACB600083D65 /* DatabaseManager.swift */; };
+		5B15503C2069BFBE00083D65 /* CryptoCurrencyModelCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15503B2069BFBE00083D65 /* CryptoCurrencyModelCellProtocol.swift */; };
+		5B15A50F206B52CC00568D26 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15A50E206B52CC00568D26 /* FavouritesViewController.swift */; };
+		5B15A511206B5BB700568D26 /* FavouritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15A510206B5BB700568D26 /* FavouritesTableViewCell.swift */; };
+		5B15A513206B860A00568D26 /* FavouriteCurrencyCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B15A512206B860A00568D26 /* FavouriteCurrencyCellProtocol.swift */; };
+		5B9A36352073233100D97128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B9A36342073233100D97128 /* GoogleService-Info.plist */; };
+		5BDE425A207221E20021295A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE4259207221E20021295A /* LoginViewController.swift */; };
+		5BDE425C207300ED0021295A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE425B207300ED0021295A /* RegisterViewController.swift */; };
 		A159020EE3EFCDFB7F189516 /* Pods_CryptoLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87E2674E0BA3FA4C754BD02 /* Pods_CryptoLive.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B1550332069A98A00083D65 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5B04EBFD204C0662009C5674 /* CryptoLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +65,18 @@
 		5B1550032063447E00083D65 /* CAGradientLayer+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Convenience.swift"; sourceTree = "<group>"; };
 		5B1550052063468400083D65 /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		5B1550072063655400083D65 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5B1550172069A50E00083D65 /* FavouriteCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCurrency.swift; sourceTree = "<group>"; };
+		5B1550362069AA0200083D65 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1550372069AA0200083D65 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1550382069ACB600083D65 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		5B15503B2069BFBE00083D65 /* CryptoCurrencyModelCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyModelCellProtocol.swift; sourceTree = "<group>"; };
+		5B15A50E206B52CC00568D26 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		5B15A510206B5BB700568D26 /* FavouritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewCell.swift; sourceTree = "<group>"; };
+		5B15A512206B860A00568D26 /* FavouriteCurrencyCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCurrencyCellProtocol.swift; sourceTree = "<group>"; };
+		5B9A36342073233100D97128 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5BC3CE9D207487E400E859D7 /* CryptoLive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CryptoLive.entitlements; sourceTree = "<group>"; };
+		5BDE4259207221E20021295A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5BDE425B207300ED0021295A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		8B35A40C1C24BD3276BD0F06 /* Pods-CryptoLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive.release.xcconfig"; sourceTree = "<group>"; };
 		B098A64C058947DAEECECF19 /* Pods-CryptoLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive.debug.xcconfig"; sourceTree = "<group>"; };
 		D87E2674E0BA3FA4C754BD02 /* Pods_CryptoLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +124,7 @@
 		5B04EBFF204C0662009C5674 /* CryptoLive */ = {
 			isa = PBXGroup;
 			children = (
+				5BC3CE9D207487E400E859D7 /* CryptoLive.entitlements */,
 				5B04EC00204C0662009C5674 /* AppDelegate.swift */,
 				5B04EC02204C0662009C5674 /* ViewController.swift */,
 				5B04EC1E204E6953009C5674 /* HistoricDataModel.swift */,
@@ -99,6 +134,7 @@
 				5B04EC15204C0706009C5674 /* CoinAPI.swift */,
 				5B04EC0C204C0662009C5674 /* LaunchScreen.storyboard */,
 				5B04EC0F204C0662009C5674 /* Info.plist */,
+				5B9A36342073233100D97128 /* GoogleService-Info.plist */,
 				5B04EC07204C0662009C5674 /* CryptoLive.xcdatamodeld */,
 				5B04EC17204D5DFE009C5674 /* Network.swift */,
 				5B04EC1A204D6AFF009C5674 /* CurrencyModel.swift */,
@@ -106,6 +142,14 @@
 				5B1550032063447E00083D65 /* CAGradientLayer+Convenience.swift */,
 				5B1550052063468400083D65 /* AboutUs.swift */,
 				5B1550072063655400083D65 /* ProfileViewController.swift */,
+				5B1550172069A50E00083D65 /* FavouriteCurrency.swift */,
+				5B1550382069ACB600083D65 /* DatabaseManager.swift */,
+				5B15503B2069BFBE00083D65 /* CryptoCurrencyModelCellProtocol.swift */,
+				5B15A512206B860A00568D26 /* FavouriteCurrencyCellProtocol.swift */,
+				5B15A50E206B52CC00568D26 /* FavouritesViewController.swift */,
+				5B15A510206B5BB700568D26 /* FavouritesTableViewCell.swift */,
+				5BDE4259207221E20021295A /* LoginViewController.swift */,
+				5BDE425B207300ED0021295A /* RegisterViewController.swift */,
 			);
 			path = CryptoLive;
 			sourceTree = "<group>";
@@ -113,6 +157,8 @@
 		7A1D369E9B9EF81B4641CFE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B1550362069AA0200083D65 /* Realm.framework */,
+				5B1550372069AA0200083D65 /* RealmSwift.framework */,
 				D87E2674E0BA3FA4C754BD02 /* Pods_CryptoLive.framework */,
 			);
 			name = Frameworks;
@@ -131,6 +177,7 @@
 				5B04EBFB204C0662009C5674 /* Resources */,
 				847F8D2A0AADA73E9A314643 /* [CP] Embed Pods Frameworks */,
 				922C4D0D79D1C9FB626D3313 /* [CP] Copy Pods Resources */,
+				5B1550332069A98A00083D65 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +201,11 @@
 					5B04EBFC204C0662009C5674 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -181,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B04EC0E204C0662009C5674 /* LaunchScreen.storyboard in Resources */,
+				5B9A36352073233100D97128 /* GoogleService-Info.plist in Resources */,
 				5B04EC0B204C0662009C5674 /* Assets.xcassets in Resources */,
 				5B04EC06204C0662009C5674 /* Main.storyboard in Resources */,
 			);
@@ -215,18 +268,48 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/DKLoginButton/DKLoginButton.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FaveButton/FaveButton.framework",
+				"${BUILT_PRODUCTS_DIR}/Fusuma/Fusuma.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GearRefreshControl/GearRefreshControl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/LTMorphingLabel/LTMorphingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DKLoginButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaveButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fusuma.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GearRefreshControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTMorphingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -239,9 +322,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoLive/Pods-CryptoLive-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -255,15 +341,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B15A50F206B52CC00568D26 /* FavouritesViewController.swift in Sources */,
 				5B04EC18204D5DFE009C5674 /* Network.swift in Sources */,
 				5B04EC09204C0662009C5674 /* CryptoLive.xcdatamodeld in Sources */,
 				5B04EC1F204E6953009C5674 /* HistoricDataModel.swift in Sources */,
+				5BDE425A207221E20021295A /* LoginViewController.swift in Sources */,
 				5B1550062063468400083D65 /* AboutUs.swift in Sources */,
 				5B04EC222050EE96009C5674 /* CrytoCurrencyModelCell.swift in Sources */,
 				5B04EC1B204D6AFF009C5674 /* CurrencyModel.swift in Sources */,
+				5B15503C2069BFBE00083D65 /* CryptoCurrencyModelCellProtocol.swift in Sources */,
+				5B1550392069ACB600083D65 /* DatabaseManager.swift in Sources */,
 				5B1550082063655400083D65 /* ProfileViewController.swift in Sources */,
+				5BDE425C207300ED0021295A /* RegisterViewController.swift in Sources */,
+				5B15A513206B860A00568D26 /* FavouriteCurrencyCellProtocol.swift in Sources */,
+				5B15A511206B5BB700568D26 /* FavouritesTableViewCell.swift in Sources */,
 				5B1550042063447E00083D65 /* CAGradientLayer+Convenience.swift in Sources */,
 				5B04EC03204C0662009C5674 /* ViewController.swift in Sources */,
+				5B1550182069A50E00083D65 /* FavouriteCurrency.swift in Sources */,
 				5B04EC1D204E5656009C5674 /* CurrencyDetailViewController.swift in Sources */,
 				5B04EC01204C0662009C5674 /* AppDelegate.swift in Sources */,
 				5B04EC16204C0706009C5674 /* CoinAPI.swift in Sources */,
@@ -404,12 +498,17 @@
 			baseConfigurationReference = B098A64C058947DAEECECF19 /* Pods-CryptoLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CryptoLive/CryptoLive.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EKM82MG69H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CryptoLive/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jb.CryptoLive1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaskeeratbhatia.CryptoLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -421,12 +520,17 @@
 			baseConfigurationReference = 8B35A40C1C24BD3276BD0F06 /* Pods-CryptoLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CryptoLive/CryptoLive.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EKM82MG69H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CryptoLive/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jb.CryptoLive1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaskeeratbhatia.CryptoLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
